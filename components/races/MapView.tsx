@@ -9,6 +9,7 @@ import {
   type ErrorEvent as MapErrorEvent,
   type GeoJSONSource,
   type MapLayerMouseEvent,
+  type StyleSpecification,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Loader2 } from "lucide-react";
@@ -16,9 +17,30 @@ import { Loader2 } from "lucide-react";
 import type { Race } from "@/lib/types";
 
 const ISRAEL_CENTER: [number, number] = [34.9, 31.35];
-// "positron" is a light, minimal basemap — loads faster than the full
-// "liberty" street style and makes the red race markers stand out clearly.
-const MAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
+const LOAD_TIMEOUT_MS = 9000;
+
+// A plain raster basemap (CARTO's free, no-token "Positron" tiles) instead of
+// a full vector style: a single well-known image-tile request per tile,
+// no style.json/sprite/glyph chain to resolve, and it's been in wide
+// production use for over a decade — much less likely to hang than a
+// newer vector-tile CDN on flaky networks.
+const MAP_STYLE: StyleSpecification = {
+  version: 8,
+  sources: {
+    basemap: {
+      type: "raster",
+      tiles: [
+        "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+        "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+        "https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+        "https://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+      ],
+      tileSize: 256,
+      attribution: "© CARTO © OpenStreetMap contributors",
+    },
+  },
+  layers: [{ id: "basemap", type: "raster", source: "basemap" }],
+};
 
 interface MapViewProps {
   races: Race[];
@@ -101,7 +123,17 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
     };
     map.on("error", onError);
 
+    // never let the loading spinner spin forever, even if the map silently
+    // hangs without ever firing "load" or "error" (e.g. a stalled request)
+    const timeoutId = window.setTimeout(() => {
+      if (!loadedRef.current) {
+        console.error("map load timed out after", LOAD_TIMEOUT_MS, "ms");
+        setMapError(true);
+      }
+    }, LOAD_TIMEOUT_MS);
+
     map.on("load", () => {
+      window.clearTimeout(timeoutId);
       loadedRef.current = true;
       setReady(true);
 
@@ -210,6 +242,7 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
     });
 
     return () => {
+      window.clearTimeout(timeoutId);
       map.remove();
       mapRef.current = null;
     };
