@@ -1,0 +1,3058 @@
+{
+ "meta": {
+  "generated": "2026-08-04",
+  "source_calendar": "races.co.il",
+  "source_results": [
+   "4sport-live.com",
+   "winning.co.il / RealTiming",
+   "my.raceresult.com"
+  ],
+  "window": "2026-08-02..2027-06-30",
+  "n_races": 54,
+  "quality_method": "Riegel normalisation to 10K-equivalent (t*(10/d)^1.06)",
+  "size_thresholds": {
+   "small": "<500",
+   "medium": "500-2000",
+   "large": ">2000"
+  }
+ },
+ "races": [
+  {
+   "name": "מרוץ הלילה של מעלות תרשיחא",
+   "date": "2026-08-20",
+   "city": "מעלות-תרשיחא",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.5
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל"
+   },
+   "organizer": "מעלות תרשיחא, מחלקת ספורט",
+   "registration_url": "https://www.realtiming.co.il/events/1294",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ קהילתי בשעות הערב, המשלב חוויית ריצה בלילה בעיר הגליל עם אווירה חגיגית. המסלולים עוצבו להיות חווייתיים ותוך התחשבות בתופעות הלילה. האירוע משמש כמפגן תמיכה בקהילה המקומית.",
+   "race_page": "https://races.co.il/race/מרוץ-הלילה-של-מעלות-תרשיחא",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ ענבי טלי",
+   "date": "2026-09-04",
+   "city": "",
+   "region": "",
+   "sport_type": "ריצה",
+   "distances": [],
+   "distances_km": [],
+   "difficulty_overall": null,
+   "difficulty_by_distance": {},
+   "organizer": "3plus",
+   "registration_url": "https://www.3plus.co.il/taligrapes",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "האירוע מציע מרוץ שטח חוויתי המשלב מסלולים העוברים בכרמים של ענבי טלי, הממשיכים מסורת חקלאית של גידול ענבי מאכל באזור לכיש העתיקה. המשתתפים יקבלו חולצת מרוץ, מדליית השתתפות ייחודית, בקבוקי שתייה לאורך המסלול ובסיומו, מספר חזה עם שבב למקצים התחרותיים, אבטחה, ואשכולות ענבים לכיבוד בסיום. ההרשמה למרוץ תיפתח ב-14 ביולי 2026 ותיסגר ב-1 בספטמבר 2026 בשעה 10:00 בבוקר.",
+   "race_page": "https://races.co.il/race/מרוץ-ענבי-טלי",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ פתיחת ליגת רצים בעבודה",
+   "date": "2026-09-04",
+   "city": "הרצליה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    5.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1296",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרוץ לזכרו של אמוץ גרינברג, פתוח לכל הרצים ללא הגבלות. הרשמה תיפתח בהמשך.",
+   "race_page": "https://races.co.il/race/מרוץ-פתיחת-ליגת-רצים-בעבודה",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 434,
+    "last_finishers": 379,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 5.0,
+    "winner_men": "16:03",
+    "winner_women": "17:27",
+    "top10_men_avg": "16:37",
+    "top10_women_avg": "19:58",
+    "eq10k_men": "33:28",
+    "eq10k_women": "36:23",
+    "eq10k_top10_men": "34:39",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-09-19",
+     "2024-11-15",
+     "2023-09-08"
+    ]
+   },
+   "history_editions": [
+    "2025-09-19",
+    "2024-11-15",
+    "2023-09-08",
+    "2022-09-23"
+   ]
+  },
+  {
+   "name": "מרוץ הלילה באר שבע",
+   "date": "2026-09-09",
+   "city": "באר שבע",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "עיריית באר שבע/מחלקת הספורט",
+   "registration_url": "https://event.shvoong.co.il/events/%D7%9E%D7%A8%D7%95%D7%A5-%D7%94%D7%9C%D7%99%D7%9C%D7%94-%D7%A9%D7%9C-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2-2026/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרוץ לילה בארבעה מסלולים: חצי מרתון (21.1 ק\"מ), 10 ק\"מ, 5 ק\"מ ו-2.5 ק\"מ. זמני סגירת המסלולים מתחילים 35 דקות אחרי הזינוק של ה-2.5 ק\"מ עד 2.5 שעות לחצי מרתון. רמת קושי בין קלה לבינונית. במהלך ההרשמה אפשר לרכוש ביטוח תאונות אישיות יומי.",
+   "race_page": "https://races.co.il/race/מרוץ-הלילה-באר-שבע",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 3005,
+    "last_finishers": 4063,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:19:01",
+    "winner_women": "1:35:13",
+    "top10_men_avg": "1:25:35",
+    "top10_women_avg": "1:44:38",
+    "eq10k_men": "35:49",
+    "eq10k_women": "43:09",
+    "eq10k_top10_men": "38:47",
+    "tier": "בינונית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-05-15",
+     "2023-05-03"
+    ]
+   },
+   "history_editions": [
+    "2025-05-15",
+    "2023-05-03",
+    "2021-11-24",
+    "2016-05-23"
+   ]
+  },
+  {
+   "name": "תפוזינה סינגלס ראן",
+   "date": "2026-09-10",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "singlesrun.co.il",
+   "registration_url": "https://singlesrun.co.il/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ שמשלב ריצה תחרותית עם פעילויות היכרויות ובידור חי. השערים נפתחים בערב, והתחרויות מתחילות בשעה 18:05. באתר יש אזורי VIP וניתן להירשם לכל מקצה בנפרד.",
+   "race_page": "https://races.co.il/race/תפוזינה-סינגלס-ראן",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "בשביל הבנים הדרוזים",
+   "date": "2026-09-18",
+   "city": "קרני חיטין - צומת גולני",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "3 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    3.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "3 ק\"מ": "בינוני"
+   },
+   "organizer": "bshvilhabanim.org.il",
+   "registration_url": "https://www.bshvilhabanim.org.il/MenuDefault.aspx?Id=9204",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/בשביל-הבנים-הדרוזים-2",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1473,
+    "last_finishers": 2503,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "35:42",
+    "winner_women": "45:58",
+    "top10_men_avg": "39:44",
+    "top10_women_avg": "52:01",
+    "eq10k_men": "35:42",
+    "eq10k_women": "45:58",
+    "eq10k_top10_men": "39:44",
+    "tier": "בינונית (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-09-19",
+     "2024-09-20",
+     "2023-09-22"
+    ]
+   },
+   "history_editions": [
+    "2025-09-19",
+    "2024-09-20",
+    "2023-09-22",
+    "2022-09-16"
+   ]
+  },
+  {
+   "name": "מרוץ קרית אתא",
+   "date": "2026-09-18",
+   "city": "קרית אתא",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "מחלקת הספורט קרית אתא",
+   "registration_url": "https://www.realtiming.co.il/events/1266",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ כביש שטוח על מסלולי 10 ו-5 קילומטר עבור רצים תחרותיים, ומקצה 2 קילומטר עממי. כל המשתתפים במרחקים התחרותיים יקבלו חולצת ריצה ומדליה, עם כיבוד בסיום. תחרות גיל עם חלוקת גביעים בקטגוריות שונות.",
+   "race_page": "https://races.co.il/race/מרוץ-קרית-אתא",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 398,
+    "last_finishers": 451,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "35:14",
+    "winner_women": "41:23",
+    "top10_men_avg": "37:16",
+    "top10_women_avg": "47:02",
+    "eq10k_men": "35:14",
+    "eq10k_women": "41:23",
+    "eq10k_top10_men": "37:16",
+    "tier": "בינונית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-09-19",
+     "2024-09-13",
+     "2023-09-22"
+    ]
+   },
+   "history_editions": [
+    "2025-09-19",
+    "2024-09-13",
+    "2023-09-22",
+    "2022-09-16"
+   ]
+  },
+  {
+   "name": "בשביל הבנים הדרוזים",
+   "date": "2026-09-19",
+   "city": "קרני חיטין - צומת גולני",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "25 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "3 ק\"מ"
+   ],
+   "distances_km": [
+    25.0,
+    10.0,
+    5.0,
+    3.0
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "25 ק\"מ": "קשה מאוד",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "3 ק\"מ": "בינוני"
+   },
+   "organizer": "bshvilhabanim.org.il",
+   "registration_url": "https://www.bshvilhabanim.org.il/RegBshvilHabanim.aspx",
+   "official_url": "https://www.bshvilhabanim.org.il/MenuDefault.aspx?Id=9204",
+   "iaa_certified": false,
+   "summary": "מרוץ כולל ארבע מקצים: ריצת 10 קילומטרים, ריצת 5 קילומטרים, רכיבה על אופניים 25 קילומטרים וצעדה 3 קילומטרים. דמי הרשמה המוקדמת (עד 14.7) הם 120 שקל לריצות הארוכות ו-100 שקל לריצה הקצרה, עם עלייה של 20 שקל בהרשמה מאוחרת (עד 15.9). רכיבה וצעדה יעלו בהתאמה 120 ו-50 שקל בהרשמה מוקדמת.",
+   "race_page": "https://races.co.il/race/בשביל-הבנים-הדרוזים",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1473,
+    "last_finishers": 2503,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "35:42",
+    "winner_women": "45:58",
+    "top10_men_avg": "39:44",
+    "top10_women_avg": "52:01",
+    "eq10k_men": "35:42",
+    "eq10k_women": "45:58",
+    "eq10k_top10_men": "39:44",
+    "tier": "בינונית (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-09-19",
+     "2024-09-20",
+     "2023-09-22"
+    ]
+   },
+   "history_editions": [
+    "2025-09-19",
+    "2024-09-20",
+    "2023-09-22",
+    "2022-09-16"
+   ]
+  },
+  {
+   "name": "מרוץ רצים ביחד במזרעה",
+   "date": "2026-09-19",
+   "city": "מזרעה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "2 ק\"מ": "בינוני"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1263",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המרוץ כולל שלוש אפשרויות מסלול - 2 ק\"מ, 5 ק\"מ ו-10 ק\"מ - המותאמות לכל הגילאים והרמות. ההתחלה בשעה 07:00 בשכונה החדשה בטיילת מזרעה, והמסלול עובר דרך הגן הדו-לשוני בקיבוץ עברון ובשדות ובשטחים הפתוחים של שני הישובים. בסיום יתקיים פסטיבל רב-תרבותי עם דוכני אוכל ומוסיקה. כל משתתף יקבל חולצה וערכת משתתף.",
+   "race_page": "https://races.co.il/race/מרוץ-רצים-ביחד-במזרעה",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 368,
+    "last_finishers": 388,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "38:51",
+    "winner_women": "45:42",
+    "top10_men_avg": "42:40",
+    "top10_women_avg": "51:50",
+    "eq10k_men": "38:51",
+    "eq10k_women": "45:42",
+    "eq10k_top10_men": "42:40",
+    "tier": "עממית+ (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-09-27",
+     "2023-09-23",
+     "2022-10-01"
+    ]
+   },
+   "history_editions": [
+    "2025-09-27",
+    "2023-09-23",
+    "2022-10-01",
+    "2021-10-02"
+   ]
+  },
+  {
+   "name": "מרוץ מדבר מצפה רמון",
+   "date": "2026-09-24",
+   "city": "מצפה רמון",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "Runpanel",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-מדבר-מצפה-רמון",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ נחל שורק",
+   "date": "2026-09-25",
+   "city": "",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1305",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ הכביש השנתי מתקיים לזכרו של סגן הדר גולדין ז\"ל, והוא מציע חוויה מושקעת ומפנקת. ההרשמה למרוץ תיפתח בקרוב, ומומלץ להירשם מראש כדי ליהנות מעלות מופחתת. המשתתפים במקצים התחרותיים יקבלו חולצה מנדפת זיעה, מדליית השתתפות, בקבוק שתייה וחטיף אנרגיה. בנוסף, גביעים יוענקו לשלושת המקומות הראשונים בכל קטגוריה, וכיבוד יוגש לכלל המשתתפים. המסלולים יאובטחו על ידי משטרת ישראל, ומעטפת רפואית תינתן על ידי מד\"א. המקצים השונים מותאמים לקטגוריות גיל מגוונות, כאשר שנת הלידה היא הקובעת, ואין כפל פרסים.",
+   "race_page": "https://races.co.il/race/מרוץ-נחל-שורק",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 392,
+    "last_finishers": 490,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "34:32",
+    "winner_women": "46:20",
+    "top10_men_avg": "37:56",
+    "top10_women_avg": "54:09",
+    "eq10k_men": "34:32",
+    "eq10k_women": "46:20",
+    "eq10k_top10_men": "37:56",
+    "tier": "בינונית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2024-10-21",
+     "2023-10-04",
+     "2022-10-13"
+    ]
+   },
+   "history_editions": [
+    "2024-10-21",
+    "2023-10-04",
+    "2022-10-13"
+   ]
+  },
+  {
+   "name": "מרוץ לילה שדרות",
+   "date": "2026-09-30",
+   "city": "שדרות",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "sderotlightrun.co.il",
+   "registration_url": "https://sderotlightrun.co.il/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-לילה-שדרות",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 606,
+    "last_finishers": 606,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "32:37",
+    "winner_women": "39:46",
+    "top10_men_avg": "35:17",
+    "top10_women_avg": "45:01",
+    "eq10k_men": "32:37",
+    "eq10k_women": "39:46",
+    "eq10k_top10_men": "35:17",
+    "tier": "גבוהה",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2018-06-21"
+    ]
+   },
+   "history_editions": [
+    "2018-06-21"
+   ]
+  },
+  {
+   "name": "מרוץ חדרה",
+   "date": "2026-10-02",
+   "city": "חדרה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "2 ק\"מ": "בינוני"
+   },
+   "organizer": "שוונג",
+   "registration_url": "https://hadera-run.shvoong.co.il/?page_id=4138",
+   "official_url": "https://hadera-run.shvoong.co.il/",
+   "iaa_certified": true,
+   "summary": "המרוץ יתקיים באזור אקו פארק חדרה על כביש מהיר, במשולוש שלוש קטגוריות מרחק: 10 ק\"מ ו-5 ק\"מ על כביש מהיר, ו-2 ק\"מ תחרותי ועממי. האירוע מאופיין בפני שטח פתוחים וטופוגרפיה שטוחה, המתאימה למשתתפים ברמות שונות.",
+   "race_page": "https://races.co.il/race/מרוץ-חדרה",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 607,
+    "last_finishers": 806,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "32:54",
+    "winner_women": "41:00",
+    "top10_men_avg": "35:29",
+    "top10_women_avg": "45:30",
+    "eq10k_men": "32:54",
+    "eq10k_women": "41:00",
+    "eq10k_top10_men": "35:29",
+    "tier": "גבוהה (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-04-18",
+     "2024-04-26",
+     "2023-03-31"
+    ]
+   },
+   "history_editions": [
+    "2025-04-18",
+    "2024-04-26",
+    "2023-03-31"
+   ]
+  },
+  {
+   "name": "בדרכו של עלים",
+   "date": "2026-10-09",
+   "city": "כפר ראש הנקרה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [],
+   "distances_km": [],
+   "difficulty_overall": null,
+   "difficulty_by_distance": {},
+   "organizer": "פאדי: 052-2976095, מונא: 053-7681714",
+   "registration_url": "https://www.realtiming.co.il/events/1304",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ זה מתקיים לזכרו של סגן אלוף עלים עבדאללה ז\"ל, אשר נפל בעת מילוי תפקידו. המרוץ הוא יוזמה של משפחתו וחבריו, שמטרתה להנציח את זכרו ולהמשיך את דרכו וערכיו. זהו מרוץ עממי המתאפיין בדרגת קושי קלה, והוא אינו כולל מדידת זמנים. איסוף ערכות המשתתפים יתבצע בין השעות 6:00 ל-7:00 בבוקר, ולאחר מכן יתקיימו הזינוקים למקצים השונים.",
+   "race_page": "https://races.co.il/race/בדרכו-של-עלים",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "חצי מרתון פארק הירקון",
+   "date": "2026-10-09",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "משה פרץ, RunWIthMoshe",
+   "registration_url": "https://runwithmoshe.co.il/%d7%97%d7%a6%d7%99-%d7%9e%d7%a8%d7%aa%d7%95%d7%9f-%d7%a4%d7%90%d7%a8%d7%a7-%d7%94%d7%99%d7%a8%d7%a7%d7%95%d7%9f-2023/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "השנה ה-19 של המרוץ כוללת שלוש מסלולים - 21 קילומטר, 10 קילומטר ו-5 קילומטר. כל המסלולים שטוחים ומדודים על ידי איגוד האתלטיקה, וכשרים להנחת שיאים אישיים. הזינוק מאחורי בית חולים אסותא בשעות הבוקר.",
+   "race_page": "https://races.co.il/race/חצי-מרתון-פארק-הירקון",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1077,
+    "last_finishers": 1174,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:10:40",
+    "winner_women": "1:19:45",
+    "top10_men_avg": "1:14:10",
+    "top10_women_avg": "1:29:58",
+    "eq10k_men": "32:02",
+    "eq10k_women": "36:09",
+    "eq10k_top10_men": "33:37",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-10-24",
+     "2024-11-08",
+     "2024-01-19"
+    ]
+   },
+   "history_editions": [
+    "2025-10-24",
+    "2024-11-08",
+    "2024-01-19",
+    "2022-10-07"
+   ]
+  },
+  {
+   "name": "מרוץ הסרגל",
+   "date": "2026-10-09",
+   "city": "עפולה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1277",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "המרוץ משלב מסלול מישורי ומהיר בעיר עפולה וכביש 65, עם התחלה וסיום ברחבת קאנטרי קלאב. מתקיימים ארבעה מקצים: 2 ק\"מ, 5 ק\"מ, 10 ק\"מ וחצי מרתון (21.1 ק\"מ), בנוסף למקצה אופני יד באותו המרחק. כל המשתתפים יקבלו מדלייה, ובחצי המרתון יש פרסים כספיים (2000 ש\"ח למקום ראשון). ערכת הרישום כוללת חולצה עד למספר רשומים מסוים, לאחר מכן בעלות נוספת. החניה במרחב אנדרטת חטיבת כפיר.",
+   "race_page": "https://races.co.il/race/מרוץ-הסרגל-ה-4",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 930,
+    "last_finishers": 1279,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:07:41",
+    "winner_women": "1:16:22",
+    "top10_men_avg": "1:15:02",
+    "top10_women_avg": "1:37:31",
+    "eq10k_men": "30:41",
+    "eq10k_women": "34:37",
+    "eq10k_top10_men": "34:00",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-10-10",
+     "2024-11-29",
+     "2023-10-06"
+    ]
+   },
+   "history_editions": [
+    "2025-10-10",
+    "2024-11-29",
+    "2023-10-06"
+   ]
+  },
+  {
+   "name": "מרוץ סביון",
+   "date": "2026-10-09",
+   "city": "סביון",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ",
+    "400 מטר",
+    "100 מטר"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0,
+    0.4,
+    0.1
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל",
+    "400 מטר": "קל",
+    "100 מטר": "קל"
+   },
+   "organizer": "שוונג",
+   "registration_url": "https://savyon.shvoong.co.il/?page_id=3114",
+   "official_url": "https://event.shvoong.co.il/events/%d7%9e%d7%a8%d7%95%d7%a5-%d7%a1%d7%91%d7%99%d7%95%d7%9f-2026/",
+   "iaa_certified": true,
+   "summary": "מרוץ עם מקצים מגוונים: תחרותיים ב-10, 5 ו-2 קילומטר, ועממיים ב-2 קילומטר, 400 מטר לילדים ו-100 מטר לקטנטנים. המסלול מדוד וממוכן בתו תקן רשמי של איגוד האתלטיקה, ידוע כאחד המהירים בישראל. הזינוק וקו הסיום ממתחם החנייה ברחוב גן השקמים. המרוץ מוקדש לזכרו של עומר חי, לוחם מגלן שנפל בקרבות בעזה. האירוע כולל אקספו לפני ואחרי הריצה. תושבי סביון זכאים להנחה של 10 אחוזים בהרשמה.",
+   "race_page": "https://races.co.il/race/מרוץ-סביון",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 839,
+    "last_finishers": 548,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "30:35",
+    "winner_women": "38:02",
+    "top10_men_avg": "34:12",
+    "top10_women_avg": "45:29",
+    "eq10k_men": "30:35",
+    "eq10k_women": "38:02",
+    "eq10k_top10_men": "34:12",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-03-21",
+     "2024-02-16",
+     "2022-04-01"
+    ]
+   },
+   "history_editions": [
+    "2025-03-21",
+    "2024-02-16",
+    "2022-04-01",
+    "2019-03-29"
+   ]
+  },
+  {
+   "name": "CivilEng race",
+   "date": "2026-10-16",
+   "city": "פארק מיני ישראל",
+   "region": "",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "civileng.co.il",
+   "registration_url": "https://www.civileng.co.il/sport",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/civileng-race",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 1066,
+    "last_finishers": 1066,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "35:05",
+    "winner_women": "50:09",
+    "top10_men_avg": "38:57",
+    "top10_women_avg": "55:24",
+    "eq10k_men": "35:05",
+    "eq10k_women": "50:09",
+    "eq10k_top10_men": "38:57",
+    "tier": "בינונית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2022-11-04"
+    ]
+   },
+   "history_editions": [
+    "2022-11-04"
+   ]
+  },
+  {
+   "name": "מרוץ התקווה",
+   "date": "2026-10-16",
+   "city": "בארי",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "12 ק\"מ",
+    "6 ק\"מ",
+    "3 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    12.0,
+    6.0,
+    3.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "12 ק\"מ": "בינוני",
+    "6 ק\"מ": "קל",
+    "3 ק\"מ": "קל"
+   },
+   "organizer": "מרתון ישראל",
+   "registration_url": "https://www.marathonisrael.co.il/event/%d7%94%d7%9e%d7%a8%d7%95%d7%a5-%d7%9c%d7%aa%d7%a7%d7%95%d7%95%d7%94/%D7%94%D7%A8%D7%A9%D7%9E%D7%94-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A2/",
+   "official_url": "https://www.marathonisrael.co.il/event/%D7%94%D7%9E%D7%A8%D7%95%D7%A5-%D7%9C%D7%AA%D7%A7%D7%95%D7%95%D7%94/",
+   "iaa_certified": false,
+   "summary": "האירוע עובר בלב אזור עוטף עזה, ומסלוליו עוברים בתחנות בהן מוצגים סיפורי דרך, השראות ותכנים מרגשים העוסקים באובדן ובתקומה. המרוץ, יוזמה משותפת של רצי העוטף וחברת מרתון ישראל, נועד לסמל את החזרה לחיים ואת ניצחון הרוח האנושית, לאחר שהאזור הפך לסמל של שבר, אך גם של כוח, נחישות ואהבת החיים. כל המקצים מתחילים ומסתיימים ביער חרבות ברזל, הממוקם סמוך לקיבוץ בארי.",
+   "race_page": "https://races.co.il/race/מרוץ-התקווה",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ חבר",
+   "date": "2026-10-16",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "800 מטר"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0,
+    0.8
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "800 מטר": "בינוני"
+   },
+   "organizer": "כפיים אקטיב",
+   "registration_url": "https://www.runh.co.il/MenuDefault.aspx?Id=9301",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "ארבע מקצים במקביל: 15 ק\"מ, 10 ק\"מ, 5 ק\"מ ו-800 מטר לילדים. ההזנקות מתחילות בשעה 6:10 בבוקר, כשגני יהושע בספורטק תל אביב משמשים שטח כינוס. יש להגיע כחצי שעה לפני מועד הזינוק של המקצה שלך. זמני חתך: 2:15 שעות ב-15 ק\"מ, 1:30 בעשרה ק\"מ, 50 דקות בחמישה ק\"מ, 30 דקות במיני המרוץ. שערים נפתחים בשעה 5:00. בדוק את אתר כפיים אקטיב לעדכונים בזמן האחרון.",
+   "race_page": "https://races.co.il/race/מרוץ-חבר",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ הילדים בהרצליה",
+   "date": "2026-10-19",
+   "city": "הרצליה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "3 ק\"מ תחרותי",
+    "2 ק\"מ תחרותי בנים",
+    "1 ק\"מ"
+   ],
+   "distances_km": [
+    3.0,
+    2.0,
+    1.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "3 ק\"מ תחרותי": "קל",
+    "2 ק\"מ תחרותי בנים": "קל",
+    "1 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1256",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ הילדים השלישי והאחרון בליגת 2026, המסיים את סדרת המרוצים בשנה זו. האירוע מיועד לילדים בגילאים שונים ויתקיים במתחם קפה גן סיפור. השתתפות דורשת הרשמה מראש. הממשקים הלוגיסטיים והמידע המפורט על בני הגילאים המשתתפים, מרחקי המרוץ ותוכניית היום יפורסמו בהמשך.",
+   "race_page": "https://races.co.il/race/מרוץ-הילדים-בהרצליה",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 600,
+    "last_finishers": 809,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 3.0,
+    "winner_men": "11:13",
+    "winner_women": "11:22",
+    "top10_men_avg": "13:30",
+    "top10_women_avg": "15:21",
+    "eq10k_men": "40:11",
+    "eq10k_women": "40:44",
+    "eq10k_top10_men": "48:22",
+    "tier": "עממי",
+    "depth": "עומק נמוך",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-10-20",
+     "2024-09-25"
+    ]
+   },
+   "history_editions": [
+    "2026-02-20",
+    "2025-10-20",
+    "2025-02-21",
+    "2024-09-25"
+   ]
+  },
+  {
+   "name": "מרוץ אל האופק - גן יבנה",
+   "date": "2026-10-23",
+   "city": "גן יבנה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [],
+   "distances_km": [],
+   "difficulty_overall": null,
+   "difficulty_by_distance": {},
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1290",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-אל-האופק-גן-יבנה",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ דאלית אל כרמל",
+   "date": "2026-10-23",
+   "city": "דאלית אל-כרמל",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "Runpanel",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-דאלית-אל-כרמל",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ הבוז׳ולה",
+   "date": "2026-10-23",
+   "city": "גזר",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "12 ק\"מ",
+    "8 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    12.0,
+    8.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "12 ק\"מ": "קשה",
+    "8 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "marathonisrael.co.il",
+   "registration_url": "https://www.marathonisrael.co.il/event/%D7%9E%D7%A8%D7%95%D7%A5-%D7%94%D7%91%D7%95%D7%96%D7%95%D7%9C%D7%94-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ של חגיגה וטעימות בשבילים חקלאיים בין כרמים ומטעים. שני מסלולים - 12 ק\"מ עם 5 תחנות רענון ו-8 ק\"מ עם 3 תחנות. בכל תחנה - יין מקומי, מוזיקה חיה וכיבודים. התוואי נוח לריצה עם עליות קלות, נופים של כרמים וזיתים. האירוע בגיל 18+ בלבד. זינוק בשעה 07:00 (12 ק\"מ) וחצי שעה מאוחר יותר (8 ק\"מ), קאט אוף בהתאמה - 3 שעות ו-2.5 שעות. התחלה וסיום סמוך למצפה טל.",
+   "race_page": "https://races.co.il/race/מרוץ-הבוזולה",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 134,
+    "last_finishers": 134,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "2:10:00",
+    "winner_women": "2:02:13",
+    "top10_men_avg": "10:17:04",
+    "top10_women_avg": "10:16:17",
+    "eq10k_men": "58:55",
+    "eq10k_women": "55:24",
+    "eq10k_top10_men": "4:39:40",
+    "tier": "עממי (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק נמוך",
+    "road_comparable": false,
+    "editions_used": [
+     "2020-10-15"
+    ]
+   },
+   "history_editions": [
+    "2020-10-15"
+   ]
+  },
+  {
+   "name": "מרוץ כוכב יאיר צור יגאל",
+   "date": "2026-10-23",
+   "city": "כוכב יאיר",
+   "region": "",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.5
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל"
+   },
+   "organizer": "3plus",
+   "registration_url": "https://www.3plus.co.il/yair",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המרוץ, יוזמה מקומית שהפכה לאחד מאירועי הבוטיק הוותיקים והמובילים בישראל, מציע מסלולי ריצה לאורך תוואי נחל אלכסנדר והחורש הסובב את היישוב. הוא מאורגן בתמיכת המתנ\"ס המקומי והמועצה, וכולל מקצים תחרותיים וכן מקצה עממי קצר המיועד לילדים. המרוץ שם דגש על חיבור כלל הקהילה, כולל ילדים, בוגרים, צעירים מהגיל השלישי ואנשים עם צרכים מיוחדים, המשתתפים בריצה או הליכה לפי יכולתם. חיילי חובה תושבי המקום זכאים לרישום חינם בהצגת חוגר ואישור תושבות, וחיילי מילואים תושבים שביצעו מעל 100 ימי מילואים בין 23.10.25 ל-23.10.26 זכאים להנחה של 10 אחוזים, לאחר שליחת אישור שירות מילואים למייל המארגנים. הרשמה למרוץ נפתחת ב-26.07.2026 ומחירים מוזלים תקפים עד 26.8.26 בחצות; קודי הנחה לקבוצות יונפקו לאחר מועד זה. לוח הזמנים, הכולל התכנסות וחלוקת ערכות החל מ-6:30 והזנקות שונות בין 8:00 ל-9:30, עשוי להשתנות בהתאם לכמות המשתתפים ומזג האוויר, ויש להתעדכן באתר המרוץ 24 שעות לפני המועד.",
+   "race_page": "https://races.co.il/race/מרוץ-כוכב-יאיר-צור-יגאל",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ קריית אונו",
+   "date": "2026-10-23",
+   "city": "קרית אונו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "עיריית קריית אונו/מחלקת הספורט",
+   "registration_url": "https://gorun.shvoong.co.il/?page_id=8",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרוץ משותף של שתי הרשויות השכנות. כולל מקצים תחרותיים לחובבי ריצה ומסלול עממי משפחתי, שמתאים לכל הגילאים. האירוע משלב תחרות קשה עם אווירה קהילתית.",
+   "race_page": "https://races.co.il/race/מרוץ-קריית-אונו",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 738,
+    "last_finishers": 738,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "33:33",
+    "winner_women": "36:19",
+    "top10_men_avg": "34:53",
+    "top10_women_avg": "42:39",
+    "eq10k_men": "33:33",
+    "eq10k_women": "36:19",
+    "eq10k_top10_men": "34:53",
+    "tier": "בינונית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-05-30"
+    ]
+   },
+   "history_editions": [
+    "2025-05-30"
+   ]
+  },
+  {
+   "name": "מרוץ הלילה של תל אביב",
+   "date": "2026-10-28",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "כפיים אקטיב",
+   "registration_url": "https://www.tlvnightrun.co.il",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "המרוץ כולל חמישה מקצים במרחקים שונים: 5 ק\"מ (לא מדיד), 10 ק\"מ ו-15 ק\"מ. כל המקצים מוזנקים ומסתיימים בשדרות רוקח בין גני יהושע למרכז הירידים. זמני ההזנקות מתחילים בשעה 19:45, והכביש ייפתח לתנועה בשעה 00:30. זמני ההשלמה המקסימליים: 45 דקות (5 ק\"מ), שעה וחצי (10 ק\"מ) ו-שעתיים ו-15 דקות (15 ק\"מ). המקום ממוקם מול תחנת הרכבת, ובהרשמה כללולה ערכת משתתף, אבטחה, עמדות הזנה ומדליית סיום. חולצת המרוץ (Decathlon) מוכרת בנפרד ב-30 שקל.",
+   "race_page": "https://races.co.il/race/מרוץ-הלילה-של-תל-אביב",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 10130,
+    "last_finishers": 9192,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 15.0,
+    "winner_men": "51:49",
+    "winner_women": "1:08:38",
+    "top10_men_avg": "55:44",
+    "top10_women_avg": "1:13:04",
+    "eq10k_men": "33:43",
+    "eq10k_women": "44:39",
+    "eq10k_top10_men": "36:16",
+    "tier": "בינונית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-10-29",
+     "2024-04-17"
+    ]
+   },
+   "history_editions": [
+    "2025-10-29",
+    "2024-04-17",
+    "2022-11-02",
+    "2021-11-10"
+   ]
+  },
+  {
+   "name": "מרוץ העגור",
+   "date": "2026-10-30",
+   "city": "אגמון החולה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "4 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    4.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "4 ק\"מ": "קל"
+   },
+   "organizer": "מרתון ישראל",
+   "registration_url": "https://www.marathonisrael.co.il/event/מרוץ-העגור/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המסלול עוקף את אגמון החולה בשני מקצים ראשיים: חצי מרתון בן 21.1 ק״מ (שתי הקפות זהות) וריצת 10 ק״מ (הקפה פנימית אחת). שניהם שטוחים לחלוטין, על אספלט וקטעי דשא מהודקים. זינוק חצי המרתון בשעה 06:00 עם זמן סגירה של 3 שעות; זינוק ה-10 ק״מ בשעה 06:55 עם זמן סגירה של שעתיים. יש גם מקצה הליכה של 4 ק״מ בשעה 08:05. 5 תחנות הזנה בחצי המרתון ו-2 בריצת ה-10 ק״מ לאורך המסלול.",
+   "race_page": "https://races.co.il/race/חצי-מרתון-העגור",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1514,
+    "last_finishers": 1760,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:12:57",
+    "winner_women": "1:27:15",
+    "top10_men_avg": "1:18:05",
+    "top10_women_avg": "1:36:06",
+    "eq10k_men": "33:04",
+    "eq10k_women": "39:33",
+    "eq10k_top10_men": "35:23",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-10-31",
+     "2025-03-28",
+     "2022-11-04"
+    ]
+   },
+   "history_editions": [
+    "2025-10-31",
+    "2025-03-28",
+    "2022-11-04",
+    "2021-10-08"
+   ]
+  },
+  {
+   "name": "מרוץ קיסריה",
+   "date": "2026-10-30",
+   "city": "קיסריה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "2 ק\"מ": "בינוני"
+   },
+   "organizer": "החברה לפיתוח קיסריה",
+   "registration_url": "https://caesarea-run.shvoong.co.il/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "המרוץ כולל ארבע אפשרויות מרחק - 2, 5, 10 ו-21.1 קילומטר בדרגות קושי משתנות. המסלול עובר בשבילי קיסריה, לאורך חוף הים על כורכר, דרך נמל קיסריה וסביב מגרש הגולף על שטחים עשבוניים. הזינוקים מתחילים בשעה 06:45 בבוקר מפארק חרוב. האירוע כולל חימום בהדרכת מדריכה, אקספו, מוזיקה, כיבוד ומדליות לכל המשתתפים, לצד פרסים לזוכים וגביעים לקטגוריות שונות.",
+   "race_page": "https://races.co.il/race/מרוץ-קיסריה-ה-5",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 618,
+    "last_finishers": 709,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:16:30",
+    "winner_women": "1:35:36",
+    "top10_men_avg": "1:26:57",
+    "top10_women_avg": "1:49:52",
+    "eq10k_men": "34:40",
+    "eq10k_women": "43:20",
+    "eq10k_top10_men": "39:24",
+    "tier": "בינונית (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2024-11-01",
+     "2023-03-24",
+     "2022-04-08"
+    ]
+   },
+   "history_editions": [
+    "2024-11-01",
+    "2023-03-24",
+    "2022-04-08"
+   ]
+  },
+  {
+   "name": "מרוץ כפר סבא",
+   "date": "2026-10-31",
+   "city": "כפר סבא",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "2.5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    2.5
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל"
+   },
+   "organizer": "",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "הפנינג ססגוני ממתין למשתתפים ולצופים כאחד, עם כ-8,000 רצים ואלפי צופים הצפויים להגיע לרחבת הקניון. לצד המסלולים השונים, יתקיימו אירועי ראווה מגוונים בכיכר העיר, הכוללים הופעות של תזמורות, ליצנים, מוזיקה ולהקות מחול ממועדוני ספורט מקומיים. המרוץ מציע חוויה משפחתית מהנה לשבת בבוקר, כאשר במקצה העממי משתתפים אלפי ילדים שנרשמו דרך בתי הספר, יחד עם משפחות, קבוצות ממקומות עבודה ומועדוני ספורט.",
+   "race_page": "https://races.co.il/race/מרוץ-כפר-סבא-2",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 815,
+    "last_finishers": 688,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "29:52",
+    "winner_women": "36:23",
+    "top10_men_avg": "31:59",
+    "top10_women_avg": "40:10",
+    "eq10k_men": "29:52",
+    "eq10k_women": "36:23",
+    "eq10k_top10_men": "31:59",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-03-22",
+     "2023-03-25",
+     "2022-03-12"
+    ]
+   },
+   "history_editions": [
+    "2025-03-22",
+    "2023-03-25",
+    "2022-03-12",
+    "2019-03-08"
+   ]
+  },
+  {
+   "name": "מרוץ לילה יבנה",
+   "date": "2026-11-05",
+   "city": "יבנה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "עיריית יבנה/מחלקת הספורט",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-לילה-יבנה",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ ווינר נשר - אליפות ישראל ב-10 ק\"מ",
+   "date": "2026-11-06",
+   "city": "נשר",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ",
+    "300 מטר"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.5,
+    0.3
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל",
+    "300 מטר": "קל"
+   },
+   "organizer": "עירית נשר/אגף הספורט",
+   "registration_url": "https://nesherun.shvoong.co.il/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מסלול שטוח ומדוד בתו תקן איגוד האתלטיקה, מעוצב למירוצים מהירים. המרוץ כולל מקצים מגוונים: 2.5 ק\"מ למשפחות, מקצה אפרוחים, ו-5 ו-10 ק\"מ תחרותיים. מקצה ה-2.5 ק\"מ מוקדש לסמ\"ר רון אפשטיין ז\"ל, תושב נשר שנפל בקרב בצפון עזה בנובמבר 2024. בתחילה ובסיום המרוץ יתקיים הפנינג עם אזור אקספו. חלון ההרשמה המוזל עד 14 בדצמבר בשעה 10:00.",
+   "race_page": "https://races.co.il/race/מרוץ-ווינר-נשר-אליפות-ישראל-ב-10-קמ",
+   "size": {
+    "editions_analyzed": 2,
+    "avg_finishers": 704,
+    "last_finishers": 861,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "31:53",
+    "winner_women": "36:34",
+    "top10_men_avg": "34:02",
+    "top10_women_avg": "43:01",
+    "eq10k_men": "31:53",
+    "eq10k_women": "36:34",
+    "eq10k_top10_men": "34:02",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-11-07",
+     "2022-11-11"
+    ]
+   },
+   "history_editions": [
+    "2025-11-07",
+    "2022-11-11"
+   ]
+  },
+  {
+   "name": "מרוץ רצים ביחד",
+   "date": "2026-11-07",
+   "city": "מזרעה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ",
+    "500 מטר"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0,
+    0.5
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל",
+    "500 מטר": "קל"
+   },
+   "organizer": "Runpanel",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-רצים-ביחד",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 162,
+    "last_finishers": 162,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "37:45",
+    "winner_women": "43:18",
+    "top10_men_avg": "43:08",
+    "top10_women_avg": "57:13",
+    "eq10k_men": "37:45",
+    "eq10k_women": "43:18",
+    "eq10k_top10_men": "43:08",
+    "tier": "עממית+",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2019-06-15"
+    ]
+   },
+   "history_editions": [
+    "2019-06-15"
+   ]
+  },
+  {
+   "name": "מרוץ מזכרת בתיה",
+   "date": "2026-11-13",
+   "city": "מזכרת בתיה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10k",
+    "5k",
+    "2k"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10k": "בינוני",
+    "5k": "בינוני",
+    "2k": "בינוני"
+   },
+   "organizer": "3plus",
+   "registration_url": "https://www.3plus.co.il/mbrun",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המרוץ מתקיים לזכרו של סרן יוני שמוכר ז\"ל, אשר שירת בחטיבת הצנחנים ונפל בקרב בדרום לבנון. המסלול עובר בשדות ובין כרמים ירוקים, ומציע חווית ריצת שטח בנוף יפה. נקודת הכינוס, הזינוק והסיום ממוקמת בתחנת הרכבת של המושבה. בנוסף למקצים הרגילים, מוצע גם מקצה נגיש באורך 400 מטר ומקצה עממי שאינו דורש הרשמה מראש, כאשר למשתתפיו יחולקו מדליות וכיבוד. מחירי ההרשמה למרוץ מוזלים עד לתאריך 1.9.2026.",
+   "race_page": "https://races.co.il/race/מרוץ-מזכרת-בתיה",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 338,
+    "last_finishers": 415,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "38:35",
+    "winner_women": "45:54",
+    "top10_men_avg": "41:38",
+    "top10_women_avg": "54:17",
+    "eq10k_men": "38:35",
+    "eq10k_women": "45:54",
+    "eq10k_top10_men": "41:38",
+    "tier": "עממית+ (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2024-11-01",
+     "2023-09-22",
+     "2022-10-14"
+    ]
+   },
+   "history_editions": [
+    "2024-11-01",
+    "2023-09-22",
+    "2022-10-14"
+   ]
+  },
+  {
+   "name": "מרוץ אייל ברמת השרון",
+   "date": "2026-11-14",
+   "city": "רמת השרון",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "זהבה שמואלי",
+   "registration_url": "https://www.eyalrun.co.il/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-אייל-ברמת-השרון",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 2193,
+    "last_finishers": 1969,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 15.0,
+    "winner_men": "45:36",
+    "winner_women": "54:23",
+    "top10_men_avg": "48:38",
+    "top10_women_avg": "1:01:20",
+    "eq10k_men": "29:40",
+    "eq10k_women": "35:23",
+    "eq10k_top10_men": "31:39",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-11-22",
+     "2024-11-16",
+     "2022-11-12"
+    ]
+   },
+   "history_editions": [
+    "2025-11-22",
+    "2024-11-16",
+    "2022-11-12",
+    "2021-11-06"
+   ]
+  },
+  {
+   "name": "מרוץ חיפה",
+   "date": "2026-11-20",
+   "city": "חיפה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ",
+    "1 ק\"מ",
+    "250 מטר"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0,
+    2.5,
+    1.0,
+    0.25
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "מרתון": "קשה מאוד",
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני",
+    "2.5 ק\"מ": "בינוני",
+    "1 ק\"מ": "בינוני",
+    "250 מטר": "בינוני"
+   },
+   "organizer": "haifarun.gold-fish.co.il",
+   "registration_url": "https://haifamarathon.co.il/",
+   "official_url": "https://haifarun.gold-fish.co.il/",
+   "iaa_certified": true,
+   "summary": "מרוץ המסורת של הצפון חוזר לחוף דדו בחיפה. המקום מציע נוף של הים והכרמל, וההתחרויות מתאימות לכל גיל ורמה: 15 קילומטר ו-10 קילומטר לרצים מתחרים, 5 קילומטר לתחרות כללית, ו-2.5 וקילומטר וחצי לילדים ומשפחות. הרישום פתוח לכל רוצה להצטרף לאירוע זה של ריצה וקהילה בשטח ידוע ומושלם.",
+   "race_page": "https://races.co.il/race/מרוץ-חיפה",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 2153,
+    "last_finishers": 1715,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "34:00",
+    "winner_women": "37:51",
+    "top10_men_avg": "35:06",
+    "top10_women_avg": "42:41",
+    "eq10k_men": "34:00",
+    "eq10k_women": "37:51",
+    "eq10k_top10_men": "35:06",
+    "tier": "בינונית (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק גבוה",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-05-09"
+    ]
+   },
+   "history_editions": [
+    "2025-05-09",
+    "2018-11-02",
+    "2016-11-04"
+   ]
+  },
+  {
+   "name": "מרתון חיפה",
+   "date": "2026-11-20",
+   "city": "חיפה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ",
+    "1 ק\"מ",
+    "250 מטר"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0,
+    2.5,
+    1.0,
+    0.25
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "מרתון": "קשה מאוד",
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל",
+    "1 ק\"מ": "קל",
+    "250 מטר": "קל"
+   },
+   "organizer": "haifamarathon.co.il",
+   "registration_url": "https://haifamarathon.co.il/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "האירוע הבינלאומי הראשון מסוגו בחיפה, המרוץ מתקיים לאורך חוף דדו ומציע מסלול מהיר ושטוח המתפתל לאורך מפרץ חיפה. המסלול כולל נוף פתוח אל המפרץ ורקע הכרמל הנשקף לכל אורך הדרך, כשטווח הגבהים נע בין מטר אחד ל-46 מטרים מעל פני הים. הזינוק והסיום מתקיימים באותו מתחם, ומחירי הרשמה מוקדמת זמינים עד לתאריך 30 ביוני.",
+   "race_page": "https://races.co.il/race/מרתון-חיפה",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 2153,
+    "last_finishers": 1715,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "34:00",
+    "winner_women": "37:51",
+    "top10_men_avg": "35:06",
+    "top10_women_avg": "42:41",
+    "eq10k_men": "34:00",
+    "eq10k_women": "37:51",
+    "eq10k_top10_men": "35:06",
+    "tier": "בינונית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-05-09"
+    ]
+   },
+   "history_editions": [
+    "2025-05-09",
+    "2018-11-02",
+    "2016-11-04"
+   ]
+  },
+  {
+   "name": "המרתון המדברי הבינלאומי",
+   "date": "2026-11-27",
+   "city": "אילת",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "מרתון": "קשה מאוד",
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "מרתון ישראל",
+   "registration_url": "https://www.marathonisrael.co.il/event/המרתון-המדברי-אילת/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוצים בארבע מקצים: 5 ק\"מ, 10 ק\"מ, חצי מרתון (21.1 ק\"מ) ומרתון מלא (42.2 ק\"מ). המסלולים עוברים דרך שטח מדברי עם נופי ים, הרים ووואדיות, מתאימים לרמות קושי שונות מקל ועד קשה. האירוע מושך רצים בינלאומיים וישראלים לשטח פתוח עם תנאים מאתגרים ומזג אוויר אביבי יציב.",
+   "race_page": "https://races.co.il/race/המרתון-המדברי-הבינלאומי",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1999,
+    "last_finishers": 1923,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "37:24",
+    "winner_women": "47:10",
+    "top10_men_avg": "42:06",
+    "top10_women_avg": "50:41",
+    "eq10k_men": "37:24",
+    "eq10k_women": "47:10",
+    "eq10k_top10_men": "42:06",
+    "tier": "עממית+ (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-11-28",
+     "2024-11-29",
+     "2022-12-16"
+    ]
+   },
+   "history_editions": [
+    "2025-11-28",
+    "2024-11-29",
+    "2022-12-16",
+    "2021-11-26"
+   ]
+  },
+  {
+   "name": "מרוץ לוד",
+   "date": "2026-11-27",
+   "city": "לוד",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "עיריית לוד/מחלקת הספורט",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-לוד",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 763,
+    "last_finishers": 622,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "32:28",
+    "winner_women": "36:22",
+    "top10_men_avg": "34:25",
+    "top10_women_avg": "46:24",
+    "eq10k_men": "32:28",
+    "eq10k_women": "36:22",
+    "eq10k_top10_men": "34:25",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-11-07",
+     "2022-04-01"
+    ]
+   },
+   "history_editions": [
+    "2025-11-07",
+    "2022-04-01",
+    "2019-03-29"
+   ]
+  },
+  {
+   "name": "חצי מרתון עיר ועמק (עמק המעיינות)",
+   "date": "2026-12-04",
+   "city": "עמק המעיינות",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "שוונג",
+   "registration_url": "https://maianotrun.shvoong.co.il/?page_id=2644",
+   "official_url": "https://maianotrun.shvoong.co.il/",
+   "iaa_certified": false,
+   "summary": "אירוע הדגל של המועצה והעיר בית שאן, המתקיים בשנתו ה-47. המרוץ כולל שלוש מקצים תחרותיים: חצי מרתון, 10 ק\"מ ו-5 ק\"מ, וזוכה להשתתפות של אלפי רצים מכל הרמות. המסלול מישורי ברובו, פורש דרך עמק המעיינות, עיר בית שאן והנופים הפתוחים של האזור, החל ומסתיים בגן השלושה (סחנה).\r\n\r\nהאירוע משדר מסורת עשורים, תנאי מזג אוויר בדרך כלל נוח בתקופת ימים אלה, וקהל ספורטאי מגוון. מופעלות כל שנה תוכניות עם אתלטים פאראליمפיים בשיתוף עמותת אקי\"ם.",
+   "race_page": "https://races.co.il/race/חצי-מרתון-עיר-ועמק-עמק-המעיינות",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 1624,
+    "last_finishers": 1913,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:06:42",
+    "winner_women": "1:14:43",
+    "top10_men_avg": "1:11:02",
+    "top10_women_avg": "1:27:06",
+    "eq10k_men": "30:14",
+    "eq10k_women": "33:52",
+    "eq10k_top10_men": "32:12",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-12-05",
+     "2024-12-06",
+     "2023-01-13"
+    ]
+   },
+   "history_editions": [
+    "2025-12-05",
+    "2024-12-06",
+    "2023-12-08",
+    "2023-01-13"
+   ]
+  },
+  {
+   "name": "מרתון טבריה",
+   "date": "2027-01-08",
+   "city": "טבריה",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2.5 ק\"מ"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0,
+    2.5
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "מרתון": "קשה מאוד",
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "קל",
+    "2.5 ק\"מ": "קל"
+   },
+   "organizer": "גולדפיש",
+   "registration_url": "https://tiberiasmarathon.gold-fish.co.il/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "המסלול עובר לאורך החוף המערבי והדרומי של הכנרת בנופים של הגולן והגליל התחתון. כל המקצים יוצאים מאזור הטיילת בטבריה, שטוחים ומהירים, עם תחנות שתייה וזמנים בכל 2.5 ק\"מ. הריצה צפויה למשוך משתתפים מהארץ ומחו\"ל - מספורטאים מקצועיים וקבוצות ריצה ועד לחובבים ואנשי כוח ביטחון.",
+   "race_page": "https://races.co.il/race/מרתון-טבריה-ה-47-אליפות-ישראל-במרתון",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ ספרטניון תל אביב - אליפות ישראל",
+   "date": "2027-01-21",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "100 ק\"מ",
+    "100 מייל",
+    "24 שעות",
+    "12 שעות",
+    "6 שעות"
+   ],
+   "distances_km": [
+    100.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "100 ק\"מ": "קשה מאוד",
+    "100 מייל": null,
+    "24 שעות": null,
+    "12 שעות": null,
+    "6 שעות": null
+   },
+   "organizer": "גלעד קראוז",
+   "registration_url": "https://spartanion.com/%d7%a2%d7%9e%d7%95%d7%93-%d7%94%d7%91%d7%99%d7%aa/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרוץ אולטרה מרתון 24 שעות המוחזק בפארק גני יהושע, בלב תל אביב-יפו. המסלול סגור וללא חציית כבישים, באורך 1,739 מטר עם שיפוע ממוצע של 0.17%. הרשמה מוקדמת פתוחה עד 28 בפברואר 2026 עבור המרוץ ב-21-22 בינואר 2027, עם אפשרות למועד חליפי ב-28-29 בינואר. המרוץ מוכר כאליפות ישראל בחמישה מקצים שונים (24 שעות, 12 שעות, 6 שעות, 100 ק\"מ, 100 מייל) ומופעל כליל על ידי מתנדבים.",
+   "race_page": "https://races.co.il/race/מרוץ-ספרטניון-תל-אביב-אליפות-ישראל",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרתון ים המלח",
+   "date": "2027-02-05",
+   "city": "ים המלח",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "אולטרה",
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    null,
+    42.195,
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה מאוד",
+   "difficulty_by_distance": {
+    "אולטרה": null,
+    "מרתון": "קשה מאוד",
+    "חצי מרתון": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "פורום פקטור בע\"מ",
+   "registration_url": "https://deadsea.run/",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרתון ים המלח משלב חמישה מסלולים - 5, 10, 21.1, 42.2 ו-50 קילומטר - המתאימים לכל רמות כושר. הריצה מתקיימת בנופים מדבריים ייחודיים, כשהרצים חוצים את הים על סוללות עפר שטוחות. המסלולים מדורגים לפי קושי מקל עד קשה. מומלץ לרכוש ביטוח תאונות אישיים בעת הרשמה.",
+   "race_page": "https://races.co.il/race/מרתון-ארץ-ים-המלח-אליפות-ישראל-ב-50-קמ",
+   "size": {
+    "editions_analyzed": 1,
+    "avg_finishers": 325,
+    "last_finishers": 325,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "41:04",
+    "winner_women": "54:23",
+    "top10_men_avg": "44:05",
+    "top10_women_avg": "1:00:47",
+    "eq10k_men": "41:04",
+    "eq10k_women": "54:23",
+    "eq10k_top10_men": "44:05",
+    "tier": "עממי (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק בינוני",
+    "road_comparable": false,
+    "editions_used": [
+     "2018-03-17"
+    ]
+   },
+   "history_editions": [
+    "2018-03-17"
+   ]
+  },
+  {
+   "name": "מרוץ אור יהודה",
+   "date": "2027-02-12",
+   "city": "אור יהודה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "מחלקת הספורט",
+   "registration_url": null,
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "אליפות ישראל בענף הריצה על מרחקים קצרים מאפשרת לרצים להשתתף בשתי מקצות: 5 קילומטר ו-10 קילומטר. המרוץ מיועד לרצים בכל הרמות, מתחרותיים וחובבים, ומהווה בחינה של כושר גופני ויכולת ריצה. האירוע משקף את הפעילות המתמשכת בענף הריצה בישראל ומחזק את החיבור המקומי לספורט.",
+   "race_page": "https://races.co.il/race/מרוץ-אור-יהודה-אליפות-ישראל-ב-5-קמ",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1236,
+    "last_finishers": 1640,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "31:21",
+    "winner_women": "34:45",
+    "top10_men_avg": "32:58",
+    "top10_women_avg": "38:56",
+    "eq10k_men": "31:21",
+    "eq10k_women": "34:45",
+    "eq10k_top10_men": "32:58",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-02-13",
+     "2025-02-14",
+     "2024-02-09"
+    ]
+   },
+   "history_editions": [
+    "2026-02-13",
+    "2025-02-14",
+    "2024-02-09",
+    "2023-02-10"
+   ]
+  },
+  {
+   "name": "אתגר DMR בדימונה",
+   "date": "2027-02-19",
+   "city": "אתגר",
+   "region": "",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "30 ק\"מ",
+    "חצי מרתון"
+   ],
+   "distances_km": [
+    42.195,
+    30.0,
+    21.0975
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "מרתון": "קשה",
+    "30 ק\"מ": "קשה",
+    "חצי מרתון": "בינוני"
+   },
+   "organizer": "dmrchallenge.co.il",
+   "registration_url": "https://dmrchallenge.co.il/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/אתגר-dmr-בדימונה",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": true,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרתון תל אביב",
+   "date": "2027-02-26",
+   "city": "תל אביב - יפו",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "1.2 ק\"מ",
+    "400 מטר"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0,
+    1.2,
+    0.4
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "מרתון": "קשה",
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "1.2 ק\"מ": "קל",
+    "400 מטר": "קל"
+   },
+   "organizer": "כפיים אקטיב",
+   "registration_url": "https://www.tlvmarathon.co.il/regTLVMarathon.aspx",
+   "official_url": null,
+   "iaa_certified": true,
+   "summary": "מרוץ המרתון כולל מסלולים בעיר - מרתון מלא (42 ק\"מ), חצי מרתון, 10 ק\"מ ו-5 ק\"מ. הזינוק משדרות רוקח בין גני יהושע למרכז הירידים, ובחלק מהמסלולים מגבלות זמן קשוחות (מרתון 5 שעות 50 דקות, חצי מרתון 2 שעות 45 דקות). האירוע כולל יריד בריאות ופעילויות, הנמכות בחניון גני יהושע מומלצות (לפחות שעה לפני ההזנקה). רצים שיתאחרו מעבר לזמני הגג יופסקו, והמארגנים אינם אחראיים להם. בנוסף, מיני מרוץ לילדים ביום רביעי הקודם (24 בפברואר) עם מקצים בין 400 מטר ל-1.2 ק\"מ.",
+   "race_page": "https://races.co.il/race/מרתון-תל-אביב",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 25218,
+    "last_finishers": 33357,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 42.195,
+    "winner_men": "2:11:46",
+    "winner_women": "2:44:26",
+    "top10_men_avg": "2:24:23",
+    "top10_women_avg": "3:09:15",
+    "eq10k_men": "28:39",
+    "eq10k_women": "35:45",
+    "eq10k_top10_men": "31:23",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2025-02-28",
+     "2023-02-24",
+     "2022-02-25"
+    ]
+   },
+   "history_editions": [
+    "2026-02-27",
+    "2025-02-28",
+    "2023-02-24",
+    "2022-02-25"
+   ]
+  },
+  {
+   "name": "מרוץ ראש העין",
+   "date": "2027-03-05",
+   "city": "ראש העין",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1295",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ הבנים ע\"ש שי דנור-דדון, תושב העיר, מתקיים השנה בחסותו של המרוץ. זו השנה השש עשרה לזכרו.",
+   "race_page": "https://races.co.il/race/מרוץ-ראש-העין",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 495,
+    "last_finishers": 423,
+    "class": "קטן"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "34:28",
+    "winner_women": "42:06",
+    "top10_men_avg": "38:44",
+    "top10_women_avg": "48:53",
+    "eq10k_men": "34:28",
+    "eq10k_women": "42:06",
+    "eq10k_top10_men": "38:44",
+    "tier": "בינונית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-05-01",
+     "2025-03-07",
+     "2024-03-15"
+    ]
+   },
+   "history_editions": [
+    "2026-05-01",
+    "2025-03-07",
+    "2024-03-15",
+    "2023-03-03"
+   ]
+  },
+  {
+   "name": "מרתון WINNER ירושלים",
+   "date": "2027-03-19",
+   "city": "ירושלים",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "מרתון",
+    "חצי מרתון",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    42.195,
+    21.0975,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "מרתון": "קשה",
+    "חצי מרתון": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "עירית ירושלים/מחלקת הספורט",
+   "registration_url": "https://jerusalem-marathon.com/registration/",
+   "official_url": "https://jerusalem-marathon.com/",
+   "iaa_certified": true,
+   "summary": "מרוץ המרתון כולל חמישה מקצים בגדלים שונים: מרתון מלא (42.2 ק\"מ, שעת זנקה 06:30), חצי מרתון (21.1 ק\"מ, 06:15), 10 ק\"מ (שעות זנקה 09:00-09:30 לפי צבע מקצה), 5 ק\"מ (07:00-07:15), מקצה משפחות (1.7 ק\"מ, 11:00) ומקצה קהילות (0.8 ק\"מ, 08:00, חופשי). כל המקצים יוצאים מכיכר המגבית המאוחדת בדרך רופין בכיוון צפון מערב, ומסלוליהם עוברים דרך נקודות ציון בעיר: גן סאקר, העיר העתיקה, בריכת הסולטן, ארמון הנציב, קמפוס האוניברסיטה העברית וגן סאקר.",
+   "race_page": "https://races.co.il/race/מרתון-winner-ירושלים",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 11293,
+    "last_finishers": 15297,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 21.0975,
+    "winner_men": "1:07:36",
+    "winner_women": "1:22:58",
+    "top10_men_avg": "1:15:13",
+    "top10_women_avg": "1:35:15",
+    "eq10k_men": "30:38",
+    "eq10k_women": "37:36",
+    "eq10k_top10_men": "34:05",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-04-17",
+     "2025-04-04"
+    ]
+   },
+   "history_editions": [
+    "2026-04-17",
+    "2025-04-04",
+    "2021-10-29",
+    "2019-05-04"
+   ]
+  },
+  {
+   "name": "מרוץ מודיעין",
+   "date": "2027-04-02",
+   "city": "גני מודיעין",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "1.8 ק\"מ",
+    "300 מטר"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0,
+    1.8,
+    0.3
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "1.8 ק\"מ": "קל",
+    "300 מטר": "קל"
+   },
+   "organizer": "עיריית מודיעין/מכבים/רעות/אגף הספורט",
+   "registration_url": "https://www.modiinrun.co.il/",
+   "official_url": "https://www.modiinrun.co.il/?page_id=2778",
+   "iaa_certified": true,
+   "summary": "מסלולים תחרותיים ועממיים המתאימים לכל הגילים. חלוקת ערכות החל מ-05:30, עם שינוי במועד זינוק מקצה ה-10 ק\"מ לשעה 06:20. המרוץ מציע חוויה קהילתית בעיר עם השתתפות תלמידי בתי ספר וחיילים.",
+   "race_page": "https://races.co.il/race/מרוץ-מודיעין",
+   "size": {
+    "editions_analyzed": 3,
+    "avg_finishers": 2169,
+    "last_finishers": 2785,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 15.0,
+    "winner_men": "50:42",
+    "winner_women": "1:00:08",
+    "top10_men_avg": "57:00",
+    "top10_women_avg": "1:13:56",
+    "eq10k_men": "32:59",
+    "eq10k_women": "39:08",
+    "eq10k_top10_men": "37:05",
+    "tier": "גבוהה",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-05-08"
+    ]
+   },
+   "history_editions": [
+    "2026-05-08",
+    "2025-03-28",
+    "2024-09-12"
+   ]
+  },
+  {
+   "name": "שביל כרמל כנרת",
+   "date": "2027-04-02",
+   "city": "כנרת",
+   "region": "",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קשה",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "קשה",
+    "10 ק\"מ": "בינוני",
+    "5 ק\"מ": "בינוני"
+   },
+   "organizer": "שי",
+   "registration_url": "https://www.realtiming.co.il/events/1302",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "מרוץ וצעדה זה מתקיים לזכרן של כרמל וכנרת גת ז\"ל, ומציע מסלולים שונים העוברים בנופי הכרמל והגליל התחתון, עם סיומת באזור הכנרת. המסלולים כוללים עליות מאתגרות וירידות טכניות, ומותאמים לרצים בדרגות קושי שונות. מומלץ לבדוק את פרטי המסלולים באתר האירוע לפני ההגעה.",
+   "race_page": "https://races.co.il/race/שביל-כרמל-כנרת",
+   "size": {
+    "editions_analyzed": 0,
+    "avg_finishers": null,
+    "last_finishers": null,
+    "class": null
+   },
+   "quality": {
+    "flagship_km": null,
+    "winner_men": null,
+    "winner_women": null,
+    "top10_men_avg": null,
+    "top10_women_avg": null,
+    "eq10k_men": null,
+    "eq10k_women": null,
+    "eq10k_top10_men": null,
+    "tier": null,
+    "depth": null,
+    "road_comparable": false,
+    "editions_used": []
+   },
+   "history_editions": []
+  },
+  {
+   "name": "מרוץ אשקלון",
+   "date": "2027-04-09",
+   "city": "אשקלון",
+   "region": "דרום",
+   "sport_type": "ריצה",
+   "distances": [
+    "15 ק\"מ",
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2k"
+   ],
+   "distances_km": [
+    15.0,
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "15 ק\"מ": "בינוני",
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2k": "קל"
+   },
+   "organizer": "4sport",
+   "registration_url": "https://hamarom.co.il/race",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": null,
+   "race_page": "https://races.co.il/race/מרוץ-אשקלון",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 1182,
+    "last_finishers": 1452,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 15.0,
+    "winner_men": "45:09",
+    "winner_women": "54:13",
+    "top10_men_avg": "50:59",
+    "top10_women_avg": "1:05:30",
+    "eq10k_men": "29:23",
+    "eq10k_women": "35:17",
+    "eq10k_top10_men": "33:10",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק בינוני",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-04-24",
+     "2025-03-21",
+     "2024-04-12"
+    ]
+   },
+   "history_editions": [
+    "2026-04-24",
+    "2025-03-21",
+    "2024-04-12",
+    "2023-03-10"
+   ]
+  },
+  {
+   "name": "מרוץ הרצליה",
+   "date": "2027-05-08",
+   "city": "הרצליה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ",
+    "2 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0,
+    2.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל",
+    "2 ק\"מ": "קל"
+   },
+   "organizer": "ריל טיימינג",
+   "registration_url": "https://www.realtiming.co.il/events/1299",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המרוץ בהרצליה מתקיים במסלול מהיר, המאפשר השגת זמנים אישיים טובים. פרטים מלאים אודות מסלולי הריצה והרשמה צפויים להתפרסם בהמשך. ניתן לצפות בסרטון המרוץ מהשנה הקודמת כדי להתרשם מהאווירה ומהתוואי.",
+   "race_page": "https://races.co.il/race/מרוץ-הרצליה",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 3081,
+    "last_finishers": 3618,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "28:59",
+    "winner_women": "33:25",
+    "top10_men_avg": "30:59",
+    "top10_women_avg": "37:15",
+    "eq10k_men": "28:59",
+    "eq10k_women": "33:25",
+    "eq10k_top10_men": "30:59",
+    "tier": "אליטה / רמה ארצית",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-05-30",
+     "2025-05-10",
+     "2024-05-04"
+    ]
+   },
+   "history_editions": [
+    "2026-05-30",
+    "2025-05-10",
+    "2024-05-04",
+    "2023-04-29"
+   ]
+  },
+  {
+   "name": "מרוץ הלילה של פתח תקווה",
+   "date": "2027-06-03",
+   "city": "פתח תקווה",
+   "region": "מרכז",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "5 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    5.0
+   ],
+   "difficulty_overall": "קל",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "קל",
+    "5 ק\"מ": "קל"
+   },
+   "organizer": "פתח תקווה ראנינג",
+   "registration_url": "https://www.pt-races.co.il/Default.aspx",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "המרוץ, המתקיים בשעות הערב, מציע חווית ריצה ייחודית ברחובות העיר, עם מסלול מישורי ומהיר יחסית, המתאים לרצים מכל הרמות. המסלול עובר דרך נקודות מרכזיות בעיר, והוא מואר לכל אורכו. ההרשמה למרוץ נפתחת מספר חודשים מראש, ומומלץ להירשם מוקדם כדי להבטיח מקום.",
+   "race_page": "https://races.co.il/race/מרוץ-הלילה-של-פתח-תקווה",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 2288,
+    "last_finishers": 2047,
+    "class": "גדול"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "32:54",
+    "winner_women": "39:03",
+    "top10_men_avg": "35:22",
+    "top10_women_avg": "43:50",
+    "eq10k_men": "32:54",
+    "eq10k_women": "39:03",
+    "eq10k_top10_men": "35:22",
+    "tier": "גבוהה",
+    "depth": "עומק גבוה",
+    "road_comparable": true,
+    "editions_used": [
+     "2026-06-04",
+     "2024-06-06",
+     "2023-06-08"
+    ]
+   },
+   "history_editions": [
+    "2026-06-04",
+    "2024-06-06",
+    "2023-06-08",
+    "2022-06-09"
+   ]
+  },
+  {
+   "name": "אתגר החרמון",
+   "date": "2027-06-04",
+   "city": "אתגר",
+   "region": "צפון",
+   "sport_type": "ריצה",
+   "distances": [
+    "10 ק\"מ",
+    "6 ק\"מ",
+    "2.7 ק\"מ"
+   ],
+   "distances_km": [
+    10.0,
+    6.0,
+    2.7
+   ],
+   "difficulty_overall": "בינוני",
+   "difficulty_by_distance": {
+    "10 ק\"מ": "בינוני",
+    "6 ק\"מ": "בינוני",
+    "2.7 ק\"מ": "בינוני"
+   },
+   "organizer": "מרתון ישראל",
+   "registration_url": "https://www.marathonisrael.co.il/event/אתגר-החרמון/",
+   "official_url": null,
+   "iaa_certified": false,
+   "summary": "אתגר החרמון מציע חווית ריצה ייחודית בנוף הררי, עם מסלולים טכניים ומאתגרים. המרוץ מתקיים בדיוק כששלג החורף מפנה את מקומו לשמש האביבית, ומאפשר לכבוש את פסגת ההר הגבוה בישראל. המסלול הארוך כולל טיפוס מצטבר משמעותי, והוא נחשב לאתגר ורטיקלי ראשון מסוגו בארץ, המתאים במיוחד לחובבי אתגרים פיזיים.\n\nהזינוק למרוץ מתבצע למרגלות החרמון, סמוך למשרדי האתר, בשיפוע התחלתי של כ-10 אחוזים. בהמשך, המסלול הופך תלול יותר עם קטעי טיפוס מאתגרים לעבר הרכבל העליון, ולאחר מכן ממשיך לקטע המכונה \"חבושית\", שהוא קשוח מאוד ודורש הליכה זהירה וירידה טכנית. חלק זה כולל איבוד גובה משמעותי על גבי שביל מסומן בירוק. לאחר מכן, המסלול ממשיך בתוואי נחל גובתה עם ירידה נוספת, ובסיומו טיפוס אתגרי על \"ציר החשמל\" לגובה 2000 מטר מעל פני הים, עד לקו הסיום בפסגת הרכבל העליון. יש לזכור כי השתתפות במקצה האתגרי מותנית בניסיון בריצות שטח, ונדרשות נעלי שטח מתאימות. יש להישמע להוראות המרשלים הפרוסים לאורך המסלול, ולשים לב לשינויים בתוואי השטח שעשויים לדרוש מעבר מהליכה לריצה ולהיפך.",
+   "race_page": "https://races.co.il/race/אתגר-החרמון",
+   "size": {
+    "editions_analyzed": 4,
+    "avg_finishers": 568,
+    "last_finishers": 988,
+    "class": "בינוני"
+   },
+   "quality": {
+    "flagship_km": 10.0,
+    "winner_men": "1:10:45",
+    "winner_women": "1:30:33",
+    "top10_men_avg": "1:19:13",
+    "top10_women_avg": "1:43:41",
+    "eq10k_men": "1:10:45",
+    "eq10k_women": "1:30:33",
+    "eq10k_top10_men": "1:19:13",
+    "tier": "עממי (שטח — לא בר-השוואה לכביש)",
+    "depth": "עומק נמוך",
+    "road_comparable": false,
+    "editions_used": [
+     "2025-06-06",
+     "2023-06-02",
+     "2022-06-03"
+    ]
+   },
+   "history_editions": [
+    "2025-06-06",
+    "2023-06-02",
+    "2022-06-03",
+    "2021-06-03"
+   ]
+  }
+ ]
+}
