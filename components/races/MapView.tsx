@@ -4,17 +4,21 @@ import { useEffect, useRef, useState } from "react";
 import {
   Map as MaplibreMap,
   NavigationControl,
+  LngLatBounds,
   Popup,
   type ErrorEvent as MapErrorEvent,
   type GeoJSONSource,
   type MapLayerMouseEvent,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { Loader2 } from "lucide-react";
 
 import type { Race } from "@/lib/types";
 
 const ISRAEL_CENTER: [number, number] = [34.9, 31.35];
-const MAP_STYLE = "https://tiles.openfreemap.org/styles/liberty";
+// "positron" is a light, minimal basemap — loads faster than the full
+// "liberty" street style and makes the red race markers stand out clearly.
+const MAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
 
 interface MapViewProps {
   races: Race[];
@@ -118,11 +122,11 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
           "circle-color": [
             "step",
             ["get", "point_count"],
-            "#ffd1da",
-            5,
             "#ff8ba0",
-            15,
+            5,
             "#ff385c",
+            15,
+            "#c1123a",
           ],
           "circle-radius": ["step", ["get", "point_count"], 16, 5, 20, 15, 26],
           "circle-stroke-width": 2,
@@ -141,7 +145,7 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
           "text-size": 13,
         },
         paint: {
-          "text-color": ["step", ["get", "point_count"], "#222222", 15, "#ffffff"],
+          "text-color": ["step", ["get", "point_count"], "#222222", 5, "#ffffff"],
         },
       });
 
@@ -190,6 +194,19 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
         map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
         map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
       }
+
+      // frame the map around all race markers instead of a guessed zoom level
+      const points = races.filter((r) => r.lat != null && r.lng != null);
+      if (points.length > 0) {
+        const bounds = points.reduce(
+          (b, r) => b.extend([r.lng as number, r.lat as number]),
+          new LngLatBounds(
+            [points[0].lng as number, points[0].lat as number],
+            [points[0].lng as number, points[0].lat as number]
+          )
+        );
+        map.fitBounds(bounds, { padding: 48, maxZoom: 9.5, duration: 0 });
+      }
     });
 
     return () => {
@@ -220,6 +237,12 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
   return (
     <div className="relative h-full w-full overflow-hidden rounded-md">
       <div ref={containerRef} className="h-full w-full" />
+      {!ready && !mapError && (
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 bg-surface-soft text-[13px] text-muted">
+          <Loader2 className="h-4 w-4 animate-spin" />
+          טוען מפה…
+        </div>
+      )}
       {mapError && (
         <div className="pointer-events-none absolute inset-x-3 top-3 rounded-sm bg-canvas/95 px-4 py-2 text-[13px] text-body shadow-card">
           לא ניתן לטעון את אריחי המפה כרגע (בעיית רשת) — רשימת המרוצים למטה עדיין זמינה ומעודכנת.
