@@ -7,7 +7,6 @@ import {
   REGISTRATION_STATUSES,
   isFiltersActive,
   type Filters,
-  type TrackType,
 } from "@/lib/filters";
 import { Button } from "@/components/ui/button";
 
@@ -59,11 +58,6 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
     return next;
   }
 
-  const trackTypeOptions: { value: TrackType; label: string }[] = [
-    { value: "road", label: "כביש" },
-    { value: "trail", label: "שטח" },
-  ];
-
   return (
     <div>
       <Section title="אזור">
@@ -94,23 +88,6 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
         ))}
       </Section>
 
-      <Section title="סוג מסלול">
-        {trackTypeOptions.map((opt) => (
-          <Chip
-            key={opt.value}
-            active={filters.trackTypes.has(opt.value)}
-            onClick={() =>
-              onChange({
-                ...filters,
-                trackTypes: toggleSetValue(filters.trackTypes, opt.value),
-              })
-            }
-          >
-            {opt.label}
-          </Chip>
-        ))}
-      </Section>
-
       <Section title="סטטוס הרשמה">
         {REGISTRATION_STATUSES.map((status) => (
           <Chip
@@ -136,10 +113,10 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
             className="px-0"
             onClick={() =>
               onChange({
-                query: filters.query,
+                ...filters,
                 regions: new Set(),
                 distances: new Set(),
-                trackTypes: new Set(),
+                quickCategory: "all",
                 registration: new Set(),
               })
             }

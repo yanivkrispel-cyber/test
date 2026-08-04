@@ -1,18 +1,14 @@
 "use client";
 
-import { MapPin, Calendar, Users, BadgeCheck, Mountain, Route } from "lucide-react";
+import { MapPin, Calendar, Users, BadgeCheck, Mountain, Route, Flame } from "lucide-react";
 
 import type { Race } from "@/lib/types";
 import { formatDate } from "@/lib/format";
+import { getRaceCategory, isPopular } from "@/lib/badges";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-
-const REGION_ACCENT: Record<string, string> = {
-  צפון: "#2f9e6d",
-  מרכז: "#ff385c",
-  דרום: "#c17c1f",
-};
+import { RaceCoverArt } from "@/components/races/RaceCoverArt";
 
 function difficultyVariant(difficulty: string | null) {
   if (!difficulty) return "muted" as const;
@@ -28,9 +24,10 @@ interface RaceCardProps {
 }
 
 export function RaceCard({ race, selected, onSelect }: RaceCardProps) {
-  const accent = (race.region && REGION_ACCENT[race.region]) || "#929292";
+  const category = getRaceCategory(race);
   const isRoad = race.quality.roadComparable;
   const registrationOpen = Boolean(race.registrationUrl);
+  const popular = isPopular(race);
 
   return (
     <article
@@ -40,7 +37,37 @@ export function RaceCard({ race, selected, onSelect }: RaceCardProps) {
         selected ? "border-ink shadow-card" : "border-hairline-soft"
       )}
     >
-      <div className="h-2" style={{ backgroundColor: accent }} />
+      <div className="relative aspect-[16/10]">
+        <RaceCoverArt category={category} className="absolute inset-0" />
+
+        <div className="absolute inset-x-3 top-3 flex items-start justify-between gap-2">
+          {race.city ? (
+            <Badge variant="canvas" className="shadow-card">
+              <MapPin className="h-3 w-3" />
+              {race.city}
+            </Badge>
+          ) : (
+            <span />
+          )}
+          {registrationOpen ? (
+            <Badge className="bg-[#0f7a3d] text-white shadow-card">פתוחה להרשמה</Badge>
+          ) : (
+            <Badge variant="canvas" className="text-muted shadow-card">
+              הרשמה טרם נפתחה
+            </Badge>
+          )}
+        </div>
+
+        {popular && (
+          <div className="absolute inset-x-3 bottom-3">
+            <Badge variant="canvas" className="shadow-card gap-1">
+              <Flame className="h-3 w-3 text-primary" />
+              מבוקש ביותר
+            </Badge>
+          </div>
+        )}
+      </div>
+
       <div className="flex flex-col gap-3 p-4">
         <div className="flex items-start justify-between gap-2">
           <h3 className="text-[16px] font-semibold leading-snug text-ink">{race.name}</h3>
@@ -56,13 +83,7 @@ export function RaceCard({ race, selected, onSelect }: RaceCardProps) {
             <Calendar className="h-3.5 w-3.5" />
             {formatDate(race.date)}
           </span>
-          {race.city && (
-            <span className="inline-flex items-center gap-1">
-              <MapPin className="h-3.5 w-3.5" />
-              {race.city}
-              {race.region ? ` · ${race.region}` : ""}
-            </span>
-          )}
+          {race.region && <span>{race.region}</span>}
         </div>
 
         <div className="flex flex-wrap gap-1.5">
