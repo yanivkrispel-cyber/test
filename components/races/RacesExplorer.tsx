@@ -32,7 +32,7 @@ export function RacesExplorer({ races }: RacesExplorerProps) {
     <div className="flex min-h-screen flex-col">
       <Header filters={filters} onChange={setFilters} resultCount={filtered.length} />
 
-      <div className="mx-auto grid w-full max-w-[1440px] flex-1 grid-cols-1 lg:grid-cols-[260px_1fr_1fr] lg:px-6">
+      <div className="mx-auto grid w-full max-w-[1440px] flex-1 grid-cols-1 lg:grid-cols-[200px_3fr_2fr] lg:px-4">
         {/* filter sidebar — desktop only */}
         <aside className="hidden border-e border-hairline-soft lg:block">
           <div className="sticky top-[73px] max-h-[calc(100vh-73px)] overflow-y-auto py-2">
@@ -43,7 +43,7 @@ export function RacesExplorer({ races }: RacesExplorerProps) {
         {/* race list */}
         <section
           className={cn(
-            "px-4 py-4 sm:px-6 lg:border-e lg:border-hairline-soft",
+            "px-4 py-4 sm:px-6 lg:border-e lg:border-hairline-soft lg:px-4",
             mobileView === "map" && "hidden lg:block"
           )}
         >
@@ -54,7 +54,7 @@ export function RacesExplorer({ races }: RacesExplorerProps) {
                 <p className="text-[14px]">נסו לשנות את מילות החיפוש או לנקות סינון</p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 gap-4 pb-8 sm:grid-cols-2 lg:grid-cols-1">
+              <div className="grid grid-cols-1 gap-3 pb-8 sm:grid-cols-2">
                 {sorted.map((race) => (
                   <RaceCard
                     key={race.id}

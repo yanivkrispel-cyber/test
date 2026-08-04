@@ -42,4 +42,6 @@ export interface Race {
   racePage: string | null;
   size: RaceSize;
   quality: RaceQuality;
+  /** Optional real event photo URL, when one is available; falls back to illustrated cover art. */
+  coverImageUrl?: string | null;
 }

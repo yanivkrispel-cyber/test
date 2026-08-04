@@ -116,6 +116,14 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
 
     map.addControl(new NavigationControl({ showCompass: false }), "top-left");
 
+    // MapLibre only knows the container size it measured at construction —
+    // it does not auto-detect later resizes from the surrounding sticky/grid
+    // layout, a hidden->visible tab switch, or web-font-driven reflow. left
+    // unaddressed, tiles can look fine while markers project to stale pixel
+    // coordinates. keep it in sync explicitly.
+    const resizeObserver = new ResizeObserver(() => map.resize());
+    resizeObserver.observe(containerRef.current);
+
     const onError = (e: MapErrorEvent) => {
       // only surface as a fatal banner if the base style itself failed
       if (!loadedRef.current) setMapError(true);
@@ -243,6 +251,7 @@ export function MapView({ races, selectedId, onSelectRace }: MapViewProps) {
 
     return () => {
       window.clearTimeout(timeoutId);
+      resizeObserver.disconnect();
       map.remove();
       mapRef.current = null;
     };

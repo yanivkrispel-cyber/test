@@ -30,7 +30,7 @@ function Chip({
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "rounded-full border px-4 py-2 text-[14px] font-medium transition-colors",
+        "rounded-full border px-3 py-1.5 text-[13px] font-medium transition-colors",
         active
           ? "border-ink bg-ink text-white"
           : "border-hairline bg-canvas text-ink hover:border-border-strong"
@@ -43,9 +43,9 @@ function Chip({
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="border-b border-hairline-soft px-5 py-5 last:border-b-0">
-      <h3 className="mb-3 text-[16px] font-semibold text-ink">{title}</h3>
-      <div className="flex flex-wrap gap-2">{children}</div>
+    <div className="border-b border-hairline-soft px-4 py-4 last:border-b-0">
+      <h3 className="mb-2.5 text-[14px] font-semibold text-ink">{title}</h3>
+      <div className="flex flex-wrap gap-1.5">{children}</div>
     </div>
   );
 }
@@ -106,7 +106,7 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
       </Section>
 
       {isFiltersActive(filters) && (
-        <div className="px-5 py-4">
+        <div className="px-4 py-4">
           <Button
             variant="tertiary"
             size="sm"
