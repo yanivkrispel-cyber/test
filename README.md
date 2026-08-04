@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# מדד מרוצי הריצה בישראל — POC
 
-## Getting Started
+POC של אינדקס מרוצי ריצה בישראל: חיפוש, סינון ומפה אינטראקטיבית, עם 54 מרוצים אמיתיים
+(אוגוסט 2026 – יוני 2027) מתוך `data/races_israel_20262027.json`.
 
-First, run the development server:
+## הרצה מקומית
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+פתחו [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## טכנולוגיה
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js (App Router) + TypeScript + Tailwind CSS v4
+- רכיבי UI בסגנון shadcn/ui (נכתבו ידנית על גבי Radix Primitives)
+- MapLibre GL JS (תואם API ל-Mapbox GL JS, ללא צורך בטוקן) עם קלסטרינג מרקרים,
+  סגנון מפה חינמי מ-[OpenFreeMap](https://openfreemap.org/)
+- כל הנתונים בצד הלקוח — אין backend, מוכן לחיבור עתידי ל-API אמיתי
 
-## Learn More
+## מבנה נתונים
 
-To learn more about Next.js, take a look at the following resources:
+- `data/races_israel_20262027.json` — מקור הנתונים הגולמי
+- `data/build_races.py` — סקריפט שממיר את ה-JSON הגולמי ל-`lib/data/races.ts` המוקלד,
+  ומוסיף קואורדינטות לפי עיר. הריצו מחדש אם הנתונים המקוריים משתנים:
+  `python3 data/build_races.py`
+- `lib/types.ts` — טיפוסי TypeScript משותפים
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## הערת רשת
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+סביבת הפיתוח הזו (sandbox) חוסמת גישה לספקי אריחי מפה חיצוניים, כך שלא ניתן
+היה לבדוק ויזואלית את טעינת אריחי המפה מתוכה. הקוד כולל fallback: אם אריחי המפה
+לא נטענים, מוצגת הודעה ידידותית והרשימה ממשיכה לעבוד במלואה. בהרצה רגילה
+(מחוץ לסביבה המוגבלת הזו) אריחי המפה אמורים להיטען כרגיל.
