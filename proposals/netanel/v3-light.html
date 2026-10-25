@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>נתנאל ב.ע.ד — בנייה במתכת למרלו"גים, מחסנים ומפעלים</title>
+<meta name="description" content="40+ שנות ניסיון בבנייה במתכת: עגלות ליקוט, מסועים, מיגונים, שערים, קונסטרוקציות ושולחנות עבודה, בהתאמה אישית למרלו&quot;גים, מחסנים ומפעלים.">
+<meta name="theme-color" content="#F2EFEA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=IBM+Plex+Sans+Hebrew:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   SYSTEM
+   type   : Frank Ruhl Libre (display, headings, numbers)
+            IBM Plex Sans Hebrew (text, labels, UI)
+   color  : light paper ground, ink text, one copper accent;
+            photo areas (hero, openers, lightbox) switch the tokens back to light-on-dark
+   grid   : 12 columns, margin --m, gutter --g, 8px spacing
+   photos : graded offline (assets/graded), no runtime filters
+   motion : transform + opacity only
+   ========================================================= */
+:root{
+  --bg:#F2EFEA; --s1:#E8E4DE;
+  --t1:#161412; --t2:#5F5A54; --t3:#8E8882;
+  --line:rgba(22,20,18,.12); --line2:rgba(22,20,18,.24);
+  --cu:#9A5F42; --cu2:#8A5238; --fade:242,239,234;
+  --fd:"Frank Ruhl Libre","Times New Roman",serif;
+  --fs:"IBM Plex Sans Hebrew",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --m:clamp(20px,4vw,64px); --g:clamp(16px,2vw,32px);
+  --sec:clamp(112px,18vh,192px);
+  --e:cubic-bezier(.22,.8,.16,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;overflow-x:clip;background:var(--bg)}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{background:var(--bg);color:var(--t2);font:400 16px/1.7 var(--fs);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:clip;text-rendering:optimizeLegibility}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--cu);color:#fff}
+:focus-visible{outline:1px solid var(--cu2);outline-offset:4px}
+.ltr{direction:ltr;unicode-bidi:isolate}
+/* light-on-dark tokens for text that sits on a photo */
+.hero__c,.op__tx,.lb,.cbar.ph{--t1:#F2EFEA;--t2:rgba(242,239,234,.78);--t3:rgba(242,239,234,.5);--line:rgba(242,239,234,.16);--line2:rgba(242,239,234,.32);--cu:#D49B7C;--cu2:#E0B094;--bg:#0A0A0A;--fade:10,10,10}
+.num{font-variant-numeric:lining-nums tabular-nums}
+
+/* type */
+.t-display{font-family:var(--fd);font-size:clamp(56px,7.6vw,140px);font-weight:300;line-height:1;letter-spacing:-.01em;color:var(--t1)}
+.t-h2{font-family:var(--fd);font-size:clamp(38px,4.6vw,84px);font-weight:300;line-height:1.04;letter-spacing:-.005em;color:var(--t1)}
+.t-h3{font-family:var(--fd);font-size:clamp(22px,1.7vw,29px);font-weight:400;line-height:1.2;color:var(--t1)}
+.t-lead{font-size:clamp(18px,1.35vw,21px);font-weight:300;line-height:1.6;color:var(--t1)}
+.t-label{font-size:13px;font-weight:500;line-height:1.4;letter-spacing:.03em;color:var(--t2)}
+.t-label b{font-weight:600;color:var(--t1)}
+.cu{color:var(--cu)}
+.ln{display:block;overflow:hidden;padding:.14em 0 .16em;margin:-.14em 0 -.16em}
+.ln>span{display:block}
+
+/* grid */
+.wrap{padding-inline:var(--m)}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--g)}
+.sec{padding-block:var(--sec)}
+
+/* photos (graded files; color layer only where hover reveals it) */
+.ph{position:relative;overflow:hidden;background:var(--s1)}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph .col{opacity:0;transition:opacity .9s var(--e)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;height:52px;padding:0 28px;border-radius:99px;font-size:14px;font-weight:500;letter-spacing:.02em;white-space:nowrap;transition:background-color .4s,color .4s,border-color .4s}
+.btn--solid{background:var(--t1);color:var(--bg)}
+.btn--solid:hover{background:var(--cu);color:#fff}
+.btn--line{border:1px solid var(--line2);color:var(--t1)}
+.btn--line:hover{border-color:var(--t1);background:var(--t1);color:var(--bg)}
+.btn .ar{transition:transform .4s var(--e)}
+.btn:hover .ar{transform:translateX(-5px)}
+
+/* ============ loader ============ */
+.ld{position:fixed;inset:0;z-index:100;background:var(--bg);display:grid;place-items:center}
+.ld__in{display:grid;justify-items:center;gap:22px}
+.ld__in img{width:44px;filter:invert(1)}
+.ld__in span{font-family:var(--fd);font-size:20px;color:var(--t1)}
+.ld__bar{width:150px;height:1px;background:var(--line);position:relative;overflow:hidden}
+.ld__bar i{position:absolute;inset:0;background:var(--t1);transform-origin:right;transform:scaleX(0)}
+
+/* ============ header ============ */
+.hd{position:fixed;inset:0 0 auto;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:20px var(--m);transition:transform .8s var(--e)}
+.hd.hide{transform:translate3d(0,-130%,0)}
+.brand{display:flex;align-items:center;gap:12px;padding:5px;padding-inline-end:20px;border-radius:99px;background:rgba(22,20,18,.92)}
+.brand__c{width:40px;height:40px;border-radius:50%;background:#F2EFEA;display:grid;place-items:center;transition:transform .6s var(--e)}
+.brand__c img{width:24px;filter:invert(1)}
+.brand:hover .brand__c{transform:rotate(-14deg)}
+.brand__n{font-family:var(--fd);font-size:18px;font-weight:500;line-height:1.1;color:#F2EFEA}
+.brand__n small{display:block;font-family:var(--fs);font-weight:400;color:rgba(242,239,234,.7);font-size:12px;letter-spacing:.03em}
+.hd__end{display:flex;align-items:center;gap:10px}
+.chip{height:46px;padding:0 22px;border-radius:99px;display:inline-flex;align-items:center;gap:12px;font-size:14px;font-weight:500;color:#F2EFEA;background:rgba(22,20,18,.92);border:1px solid rgba(242,239,234,.1);transition:background-color .4s,color .4s}
+.chip:hover{background:var(--cu);color:#fff}
+.burger i{display:grid;gap:5px;width:18px}
+.burger i::before,.burger i::after{content:"";height:1px;background:currentColor;transition:transform .5s var(--e)}
+.mo .burger i::before{transform:translateY(3px) rotate(45deg)}
+.mo .burger i::after{transform:translateY(-3px) rotate(-45deg)}
+
+/* ============ menu ============ */
+.menu{position:fixed;inset:0;z-index:55;visibility:hidden;transition:visibility 0s .8s}
+.mo .menu{visibility:visible;transition:none}
+.menu__veil{position:absolute;inset:0;background:rgba(0,0,0,.6);opacity:0;transition:opacity .7s}
+.mo .menu__veil{opacity:1}
+.menu__p{position:absolute;inset:0 auto 0 0;width:min(720px,100%);background:#ECE8E3;color:#0A0A0A;transform:translate3d(-101%,0,0);transition:transform .8s var(--e);display:flex;flex-direction:column;justify-content:space-between;padding:120px var(--m) 36px}
+.mo .menu__p{transform:none}
+.menu__nav a{display:grid;grid-template-columns:64px 1fr;align-items:baseline;padding:14px 0 10px;border-bottom:1px solid rgba(0,0,0,.1)}
+.menu__nav small{font-size:13px;font-weight:500;color:rgba(0,0,0,.5)}
+.menu__nav span{font-family:var(--fd);font-size:clamp(36px,4.2vw,58px);font-weight:300;line-height:1.1;transition:transform .5s var(--e),color .3s}
+.menu__nav a:hover span{transform:translateX(-12px);color:#8a573e}
+.menu__f{display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:14px}
+.menu__f h6{font-size:12px;font-weight:500;color:rgba(0,0,0,.5);margin-bottom:2px}
+.menu__f a,.menu__f p{font-weight:600}
+.mo .hd .chip{background:#dcd8d3;color:#0A0A0A;border-color:transparent}
+
+/* ============ chapter bar ============ */
+.cbar{position:fixed;inset:auto var(--m) 16px;z-index:40;display:flex;gap:16px;opacity:0;transform:translate3d(0,10px,0);transition:opacity .6s,transform .6s var(--e);pointer-events:none}
+.cbar.on{opacity:1;transform:none;pointer-events:auto}
+.cbar::before{content:"";position:absolute;inset:-56px calc(-1*var(--m)) -16px;z-index:-1;pointer-events:none;background:linear-gradient(0deg,rgba(var(--fade),.94) 30%,rgba(var(--fade),0))}
+.cbar button{flex:1;text-align:start;padding:6px 0 9px;position:relative;font-size:12px;font-weight:500;letter-spacing:.02em;color:var(--t2);transition:flex-grow .9s var(--e),color .4s}
+.cbar button.on{flex-grow:3;color:var(--t1)}
+.cbar button i{position:absolute;inset:auto 0 0;height:1px;background:var(--line);overflow:hidden}
+.cbar button i b{position:absolute;inset:0;background:var(--t1);transform-origin:right;transform:scaleX(0)}
+
+/* ============ hero ============ */
+.hero{height:200vh;position:relative}
+.hero__st{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.hero__ph{position:absolute;inset:0;will-change:transform}
+.hero__ph img{will-change:transform;object-position:50% 40%}
+.hero__sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.7) 0%,rgba(10,10,10,.25) 24%,rgba(10,10,10,.35) 50%,rgba(10,10,10,.94) 100%)}
+.hero__dk{position:absolute;inset:0;background:var(--bg);opacity:0}
+.hero__c{position:absolute;inset:auto 0 0;padding:0 var(--m) 40px}
+.hero h1{grid-column:1/10;margin-bottom:clamp(40px,8vh,88px)}
+.hero__bot{align-items:end;padding-top:22px;border-top:1px solid var(--line2)}
+.hero__bot>:nth-child(1){grid-column:1/5}
+.hero__bot>:nth-child(2){grid-column:6/10;display:grid;grid-template-columns:1fr 1fr;gap:2px 24px;list-style:none}
+.hero__bot>:nth-child(3){grid-column:10/13;justify-self:end;display:flex;align-items:center;gap:14px}
+.cue{width:1px;height:34px;background:var(--line2);position:relative;overflow:hidden}
+.cue::after{content:"";position:absolute;inset:0;background:var(--t1);animation:cue 2.2s var(--e) infinite}
+@keyframes cue{0%{transform:translateY(-100%)}60%,100%{transform:translateY(100%)}}
+
+/* ============ chapter opener ============ */
+.op{height:200vh;position:relative}
+.op__st{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.op__ph{position:absolute;inset:0}
+.op__ph img{will-change:transform}
+.op__sh{position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9) 0%,rgba(10,10,10,.35) 55%,rgba(10,10,10,.2) 100%)}
+.door{position:absolute;left:0;right:0;height:50%;background:var(--bg);will-change:transform}
+.door--t{top:0}
+.door--b{bottom:0}
+.op__dk{position:absolute;inset:0;background:var(--bg);opacity:0;pointer-events:none}
+.op__tx{position:absolute;inset:auto 0 0;padding:0 var(--m) 14vh}
+.op__tx .t-label{display:block;margin-bottom:18px;color:var(--t1)}
+.op__tx .t-lead{margin-top:22px;color:rgba(236,232,227,.82)}
+
+/* ============ about ============ */
+.stmt{grid-column:1/11;font-family:var(--fd);font-size:clamp(30px,3.3vw,58px);font-weight:300;line-height:1.3;color:var(--t1)}
+.ab{margin-top:var(--sec);align-items:end}
+.ab__ph{grid-column:8/13;aspect-ratio:4/5}
+.ab__ph img{height:116%;top:-8%;will-change:transform}
+.ab__tx{grid-column:1/6;display:grid;gap:22px}
+.vals{display:grid;grid-template-columns:1fr 1fr;margin-top:24px;border-top:1px solid var(--line)}
+.vals li{list-style:none;padding:16px 0;border-bottom:1px solid var(--line);color:var(--t1);font-family:var(--fd);font-size:21px;display:flex;gap:14px;align-items:baseline}
+.vals li span{font-family:var(--fs);font-size:12px;color:var(--cu2);font-weight:500}
+.stats{margin-top:var(--sec);border-top:1px solid var(--line2)}
+.stat{grid-column:span 3;padding-top:28px}
+.stat b{display:block;text-align:right;font-family:var(--fd);font-size:clamp(64px,7vw,128px);font-weight:300;line-height:.9;letter-spacing:-.02em;color:var(--t1)}
+.stat:first-child b{color:var(--cu)}
+.stat span{display:block;margin-top:18px;font-size:15px}
+.stat span strong{color:var(--t1);font-weight:500}
+
+.whom{margin-top:var(--sec)}
+.whom__h{display:flex;justify-content:space-between;align-items:end;padding-bottom:22px}
+.wr{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--g);align-items:baseline;padding:28px 0 24px;border-top:1px solid var(--line)}
+.wr:last-child{border-bottom:1px solid var(--line)}
+.wr__i{grid-column:1/2;font-size:13px;font-weight:500;color:var(--cu2)}
+.wr__n{grid-column:2/9;font-family:var(--fd);font-size:clamp(34px,4.2vw,76px);font-weight:300;line-height:1.1;color:var(--t1);transition:color .4s}
+.wr__d{grid-column:9/13;font-size:15px}
+.wr:hover .wr__n{color:var(--cu2)}
+
+.mq{overflow:hidden;white-space:nowrap;padding:34px 0;border-block:1px solid var(--line)}
+.mq__r{display:inline-flex;align-items:center;gap:48px;padding-left:48px;animation:mq 60s linear infinite;will-change:transform}
+.mq__r span{font-family:var(--fd);font-size:clamp(26px,2.4vw,40px);font-weight:300;color:var(--t1)}
+.mq__r i{width:6px;height:6px;background:var(--cu);display:block;transform:rotate(45deg)}
+@keyframes mq{to{transform:translate3d(50%,0,0)}}
+
+/* ============ works ============ */
+.wk__h{align-items:end;margin-bottom:clamp(72px,13vh,136px)}
+.wk__h h2{grid-column:1/8}
+.wk__h aside{grid-column:9/13;display:grid;gap:18px}
+.wk__h aside b{font-family:var(--fd);font-size:clamp(64px,6vw,112px);font-weight:300;line-height:.85;color:var(--cu)}
+.cards{row-gap:clamp(80px,15vh,160px)}
+.card{cursor:pointer}
+.card .ph{aspect-ratio:var(--ar)}
+.card .ph img{transition:transform 1.2s var(--e),opacity .9s var(--e)}
+.card:hover .ph img,.card:focus-visible .ph img{transform:scale(1.035)}
+.card:hover .col,.card:focus-visible .col{opacity:1}
+.card__go{position:absolute;z-index:2;bottom:18px;left:18px;height:40px;padding:0 18px;border-radius:99px;background:var(--t1);color:var(--bg);display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:500;opacity:0;transform:translate3d(0,8px,0);transition:.5s var(--e)}
+.card:hover .card__go,.card:focus-visible .card__go{opacity:1;transform:none}
+.card__m{display:flex;align-items:baseline;gap:16px;padding:20px 0 12px;border-bottom:1px solid var(--line)}
+.card__m .i{font-size:13px;font-weight:500;color:var(--cu2)}
+.card__m .c{margin-inline-start:auto;font-size:13px;font-weight:500}
+.card p{padding-top:14px;font-size:15px;max-width:46ch}
+.L{--ar:3/2}
+.S{--ar:4/5}
+.quote{grid-column:1/13;padding-block:2vh}
+.quote p{font-family:var(--fd);font-size:clamp(46px,6vw,112px);font-weight:300;line-height:1.08;color:var(--t1)}
+.quote p+p{text-align:left}
+
+/* ============ protect ============ */
+.pt__h{align-items:end;margin-bottom:clamp(56px,10vh,104px)}
+.pt__h h2{grid-column:1/8}
+.pt__h p{grid-column:9/13}
+.pt__h p b{color:var(--t1);font-weight:500}
+.bld{align-items:start}
+.rows{grid-column:1/9;display:grid;grid-template-columns:1fr 1fr;column-gap:var(--g);border-top:1px solid var(--line)}
+.rw{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);min-height:90px}
+.rw .t{font-family:var(--fd);font-size:20px;color:var(--t1);transition:color .3s}
+.rw .s{font-size:13px;line-height:1.45;margin-top:2px}
+.rw.on .t{color:var(--cu2)}
+.stp{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.stp button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line2);color:var(--t1);font-size:18px;font-weight:300;transition:background-color .3s,color .3s,border-color .3s}
+.stp button:hover{background:var(--t1);color:var(--bg);border-color:var(--t1)}
+.stp output{min-width:34px;text-align:center;font-size:17px;color:var(--t1)}
+.sheet{grid-column:9/13;position:sticky;top:104px;background:var(--s1);border:1px solid var(--line);padding:clamp(24px,2.4vw,36px)}
+.sheet__n{display:flex;align-items:baseline;gap:14px;margin:12px 0 22px}
+.sheet__n output{font-family:var(--fd);font-size:clamp(80px,6.6vw,120px);font-weight:300;line-height:.85;color:var(--cu)}
+.sheet__n small{font-size:14px;color:var(--t1)}
+.sheet ul{list-style:none;border-top:1px solid var(--line);margin-bottom:24px;max-height:280px;overflow:auto}
+.sheet li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.sheet li b{font-weight:500;color:var(--t1);white-space:nowrap}
+.sheet__a{display:grid;gap:10px}
+
+/* ============ process ============ */
+.steps{margin-top:clamp(72px,13vh,136px)}
+.steps__bar{grid-column:1/13;height:1px;background:var(--line);position:relative;margin-bottom:30px;overflow:hidden}
+.steps__bar i{position:absolute;inset:0;background:var(--t1);transform-origin:right;transform:scaleX(0)}
+.st4{grid-column:span 3;padding-inline-end:16px}
+.st4 b{display:block;font-family:var(--fd);font-size:clamp(52px,4.6vw,84px);font-weight:300;line-height:.9;color:var(--cu);margin-bottom:26px}
+.st4 h3{margin-bottom:10px}
+.st4 p{font-size:15px;max-width:32ch}
+
+/* ============ faq ============ */
+.faq__h{grid-column:1/5}
+.faq__h h2{margin-top:20px;font-size:clamp(34px,3.2vw,56px)}
+.faq__h .btn{margin-top:32px}
+.faq__l{grid-column:6/13;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;font-family:var(--fd);font-size:clamp(20px,1.55vw,25px);color:var(--t1)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{flex-shrink:0;width:14px;height:14px;position:relative}
+.faq summary i::before,.faq summary i::after{content:"";position:absolute;inset:6.5px 0 auto;height:1px;background:currentColor;transition:transform .5s var(--e)}
+.faq summary i::after{transform:rotate(90deg)}
+.faq details[open] summary i::after{transform:rotate(0)}
+.faq details p{padding:0 0 28px;max-width:60ch}
+
+/* ============ contact ============ */
+.ct__h{font-family:var(--fd);font-size:min(17vw,300px);font-weight:300;line-height:1.05;color:var(--t1);white-space:nowrap;text-align:center;overflow:hidden;padding:.06em 0 .12em}
+.ct__h .ch{display:inline-block;will-change:transform}
+.ct__g{margin-top:clamp(56px,10vh,104px);align-items:start}
+.people{grid-column:1/6;border-top:1px solid var(--line)}
+.prs{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+.prs .t-h3 small{display:block;font-family:var(--fs);font-size:15px;font-weight:400;color:var(--t2);margin-top:4px}
+.prs__a{display:flex;gap:8px}
+.prs__a .btn{height:44px;padding:0 18px}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-top:26px}
+.meta .t-label{display:block;margin-bottom:4px}
+.meta a,.meta p{color:var(--t1);font-weight:500}
+.meta a:hover{color:var(--cu2)}
+.form{grid-column:7/13;display:grid;grid-template-columns:1fr 1fr;gap:28px var(--g)}
+.fld{display:grid;gap:6px;border:0;min-width:0}
+.fld.full{grid-column:1/-1}
+.fld label,.fld legend{font-size:13px;font-weight:500;color:var(--t2)}
+.fld input,.fld select,.fld textarea{font:inherit;font-size:18px;font-weight:300;color:var(--t1);background:none;border:0;border-bottom:1px solid var(--line2);padding:8px 0 12px;border-radius:0;transition:border-color .3s}
+.fld select option{color:#000}
+.fld textarea{min-height:96px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--cu2)}
+.fld ::placeholder{color:var(--t3)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chips label{cursor:pointer;position:relative}
+.chips input{position:absolute;opacity:0}
+.chips span{display:inline-block;padding:9px 16px;border:1px solid var(--line2);border-radius:99px;font-size:14px;color:var(--t1);transition:background-color .3s,color .3s,border-color .3s}
+.chips input:checked+span{background:var(--t1);color:var(--bg);border-color:var(--t1)}
+.chips input:focus-visible+span{outline:1px solid var(--cu2);outline-offset:3px}
+.form__a{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:10px}
+.form__e{grid-column:1/-1;color:var(--cu2);font-size:14px;min-height:1.2em;margin-bottom:-14px}
+.form__n{grid-column:1/-1;font-size:13px;color:var(--t3)}
+
+.ft{margin-top:var(--sec);padding-top:26px;border-top:1px solid var(--line);align-items:center;font-size:13px}
+.ft>:nth-child(1){grid-column:1/5}
+.ft>:nth-child(2){grid-column:5/9;display:flex;gap:22px;justify-content:center}
+.ft>:nth-child(2) a:hover{color:var(--t1)}
+.ft>:nth-child(3){grid-column:9/13;text-align:left}
+.back{display:block;margin:26px var(--m) 72px;padding:12px;text-align:center;background:var(--t1);color:var(--bg);font-size:13px;font-weight:500;letter-spacing:.02em;transition:background-color .4s,color .4s}
+.back:hover{background:var(--cu);color:#fff}
+
+/* ============ lightbox ============ */
+.lb{position:fixed;inset:0;z-index:80;background:rgba(8,8,8,.97);display:grid;grid-template-rows:auto 1fr auto;opacity:0;visibility:hidden;transition:opacity .5s,visibility 0s .5s}
+.lb.open{opacity:1;visibility:visible;transition:opacity .5s}
+.lb__t,.lb__b{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px var(--m)}
+.lb__t h3{font-family:var(--fd);font-size:clamp(26px,2.4vw,38px);font-weight:300;color:var(--t1)}
+.lb__fig{display:grid;place-items:center;padding:0 var(--m);min-height:0}
+.lb__fig img{max-height:100%;max-width:100%;object-fit:contain}
+.lb__b{font-size:15px;color:var(--t1)}
+.lb__nav{display:flex;align-items:center;gap:10px}
+.lb__nav span{font-size:13px;margin-left:12px}
+.cir{width:48px;height:48px;border-radius:50%;border:1px solid var(--line2);color:var(--t1);font-size:18px;font-weight:300;display:grid;place-items:center;transition:background-color .3s,color .3s}
+.cir:hover{background:var(--t1);color:var(--bg)}
+
+/* ============ responsive ============ */
+@media (max-width:1000px){
+  .grid>*{grid-column:1/-1!important}
+  .hero h1{margin-bottom:32px}
+  .hero__bot{row-gap:18px}
+  .hero__bot>:nth-child(2){display:none}
+  .hero__bot>:nth-child(3){justify-self:start}
+  .stmt{font-size:clamp(26px,6.4vw,42px)}
+  .ab__ph{margin-top:48px}
+  .stat{grid-column:span 6!important;padding-block:24px}
+  .wr__i{display:none}
+  .wr__n{grid-column:1/-1}
+  .wr__d{grid-column:1/-1;margin-top:10px}
+  .wk__h aside{margin-top:28px}
+  .cards{row-gap:64px}
+  .card{margin:0!important}
+  .card__go{opacity:1;transform:none}
+  .rows{grid-template-columns:1fr}
+  .sheet{position:static;margin-top:40px}
+  .st4{grid-column:span 6!important;margin-bottom:44px}
+  .faq__l{margin-top:40px}
+  .form{margin-top:72px}
+  .ft{row-gap:14px}
+  .ft>*{text-align:right!important;justify-content:flex-start!important}
+}
+@media (max-width:640px){
+  .brand__n{display:none}
+  .brand{padding:4px}
+  .burger span{display:none}
+  .burger{padding:0 15px}
+  .cbar button:not(.on){display:none}
+  .stat b{font-size:clamp(56px,17vw,96px)}
+  .st4{grid-column:1/-1!important}
+  .form{grid-template-columns:1fr}
+  .prs{flex-direction:column;align-items:flex-start}
+  .meta{grid-template-columns:1fr}
+  .menu__f{grid-template-columns:1fr}
+  .quote p+p{text-align:right}
+}
+@media (prefers-reduced-motion:reduce){
+  .mq__r,.cue::after{animation:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hd" id="hd">
+  <a class="brand" href="#top" aria-label="נתנאל ב.ע.ד, לראש העמוד"><span class="brand__c"><img src="assets/logo-mark.png" alt=""></span><span class="brand__n">נתנאל ב.ע.ד<small>בנייה במתכת</small></span></a>
+  <div class="hd__end">
+    <a class="chip" href="#form">קבלו הצעה</a>
+    <button class="chip burger" id="burger" aria-expanded="false" aria-controls="menu"><span>תפריט</span><i></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu">
+  <div class="menu__veil" data-close></div>
+  <nav class="menu__p" aria-label="ניווט ראשי">
+    <div class="menu__nav">
+      <a href="#about" data-close><small class="ltr">01</small><span>אודות</span></a>
+      <a href="#works" data-close><small class="ltr">02</small><span>מוצרים</span></a>
+      <a href="#protect" data-close><small class="ltr">03</small><span>מפרט מיגון</span></a>
+      <a href="#process" data-close><small class="ltr">04</small><span>תהליך</span></a>
+      <a href="#contact" data-close><small class="ltr">05</small><span>צור קשר</span></a>
+    </div>
+    <div class="menu__f">
+      <div><h6>בן</h6><a href="tel:+972507393949"><bdi class="ltr">050-739-3949</bdi></a></div>
+      <div><h6>ירון</h6><a href="tel:+972505251781"><bdi class="ltr">050-525-1781</bdi></a></div>
+      <div><h6>מייל</h6><a href="mailto:Yaronn57@gmail.com"><bdi class="ltr">Yaronn57@gmail.com</bdi></a></div>
+      <div><h6>כתובת</h6><p>סגולה 17</p></div>
+    </div>
+  </nav>
+</div>
+
+<nav class="cbar" id="cbar" aria-label="פרקים"></nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero" aria-label="פתיחה">
+  <div class="hero__st">
+    <div class="hero__ph ph" id="heroPh"><img data-ph="structures:6" alt="סככה של 1,000 מ״ר בלי עמודים מרכזיים" fetchpriority="high"></div>
+    <div class="hero__sh"></div>
+    <div class="hero__dk" id="heroDk"></div>
+    <div class="hero__c" id="heroC">
+      <div class="grid"><h1 class="t-display" id="heroH">
+        <span class="ln"><span>מה מחזיק</span></span>
+        <span class="ln"><span>את המחסן</span></span>
+        <span class="ln"><span class="cu">שלכם?</span></span>
+      </h1></div>
+      <div class="grid hero__bot" id="heroBot">
+        <p class="t-label"><b>נתנאל ב.ע.ד</b><br>בנייה במתכת למרלו"גים, מחסנים ומפעלים, כבר יותר מ־40 שנה.</p>
+        <ul class="t-label"><li>עגלות ליקוט</li><li>מיגונים</li><li>מסועים</li><li>שערים</li><li>שולחנות עבודה</li><li>קונסטרוקציות</li></ul>
+        <a class="t-label" href="#about"><span>גללו כדי<br><b>להתחיל</b></span><span class="cue"></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 01 ABOUT ============ -->
+<div data-chapter="אודות" id="about">
+<section class="op" aria-label="פרק 01, אודות">
+  <div class="op__st">
+    <div class="op__ph ph"><img data-ph="guards:17" alt=""></div>
+    <div class="op__sh"></div>
+    <i class="door door--t"></i><i class="door door--b"></i>
+    <div class="op__dk"></div>
+    <div class="op__tx"><span class="t-label">פרק <span class="ltr">01</span></span><h2 class="t-display"><span class="ln"><span>אודות</span></span></h2><p class="t-lead">משפחה אחת, מתכת אחת, ארבעים שנה.</p></div>
+  </div>
+</section>
+
+<section class="sec wrap">
+  <div class="grid"><p class="stmt" id="stmt">נתנאל ב.ע.ד היא חברה משפחתית לבנייה במתכת. כבר יותר מ־40 שנה אנחנו מתכננים ומייצרים פתרונות למרלו"גים, למחסנים ולמפעלים המובילים בישראל, <span class="cu">לפי המידה של כל אתר.</span></p></div>
+
+  <div class="grid ab">
+    <div class="ab__tx">
+      <span class="t-label"><b>בלי</b> מוצרי מדף</span>
+      <p class="t-lead">כל עגלה, מעקה ושער מתוכננים לפי המידות, העומסים ותנועת המלגזות באתר שלכם.</p>
+      <p>אנחנו עובדים עם מרלו"גים, מחסנים לוגיסטיים ומפעלים, וגם עם לקוחות פרטיים ועסקיים. מגיעים לסיור, מודדים, מתכננים, מייצרים בעצמנו ומתקינים. מי שמדד את האתר הוא גם מי שעומד מאחורי הפריט שנבנה בו.</p>
+      <ul class="vals"><li><span class="ltr">01</span>ייעוץ</li><li><span class="ltr">02</span>שירות</li><li><span class="ltr">03</span>אמינות</li><li><span class="ltr">04</span>מקצועיות</li></ul>
+    </div>
+    <div class="ab__ph ph" data-par><img data-ph="guards:9" alt="מעקה הגנה זוויתי למפוח"></div>
+  </div>
+
+  <div class="grid stats">
+    <div class="stat"><b class="ltr num" data-count="40" data-suf="+">40+</b><span><strong>שנים</strong> של בנייה במתכת</span></div>
+    <div class="stat"><b class="ltr num" data-count="9">9</b><span><strong>קווי מוצר</strong> תחת קורת גג אחת</span></div>
+    <div class="stat"><b class="ltr num" data-count="43">43</b><span><strong>פתרונות</strong> בקטלוג, ועוד לפי הזמנה</span></div>
+    <div class="stat"><b class="ltr num" data-count="1000" data-comma>1,000</b><span><strong>מ"ר</strong> סככה בלי עמוד מרכזי</span></div>
+  </div>
+
+  <div class="whom">
+    <div class="whom__h"><span class="t-label"><b>בונים</b> עבור</span><span class="t-label ltr">04</span></div>
+    <div class="wr"><span class="wr__i ltr">01</span><span class="wr__n">מרלו"גים</span><p class="wr__d">עגלות ליקוט, מסועים ושולחנות אריזה שמקצרים את זמן הליקוט.</p></div>
+    <div class="wr"><span class="wr__i ltr">02</span><span class="wr__n">מחסנים לוגיסטיים</span><p class="wr__d">מיגונים, רשתות בטיחות ותיחום מעברים בין מלגזות להולכי רגל.</p></div>
+    <div class="wr"><span class="wr__i ltr">03</span><span class="wr__n">מפעלים</span><p class="wr__d">הגנה לקווי ייצור, לארונות חשמל ולמכונות, ושולחנות עבודה ייעודיים.</p></div>
+    <div class="wr"><span class="wr__i ltr">04</span><span class="wr__n">לקוחות פרטיים ועסקיים</span><p class="wr__d">סככות, שערים וקונסטרוקציות לפי מידה.</p></div>
+  </div>
+</section>
+</div>
+
+<section class="mq" aria-hidden="true"><div class="mq__r" id="mq"></div></section>
+
+<!-- ============ 02 WORKS ============ -->
+<div data-chapter="מוצרים" id="works">
+<section class="op" aria-label="פרק 02, מוצרים">
+  <div class="op__st">
+    <div class="op__ph ph"><img data-ph="conveyors:0" alt=""></div>
+    <div class="op__sh"></div>
+    <i class="door door--t"></i><i class="door door--b"></i>
+    <div class="op__dk"></div>
+    <div class="op__tx"><span class="t-label">פרק <span class="ltr">02</span></span><h2 class="t-display"><span class="ln"><span>מוצרים</span></span></h2><p class="t-lead">תשעה קווי מוצר. יצרן אחד.</p></div>
+  </div>
+</section>
+
+<section class="sec wrap">
+  <div class="grid wk__h">
+    <h2 class="t-h2" data-lines><span class="ln"><span>כאן מתכת</span></span><span class="ln"><span>הופכת <span class="cu">לפתרון.</span></span></span></h2>
+    <aside><b class="ltr num">09</b><p>כל התמונות מפרויקטים אמיתיים אצל לקוחות. לחצו על מוצר כדי לראות את הגלריה המלאה שלו, בצבע.</p></aside>
+  </div>
+  <div class="grid cards" id="cards"></div>
+</section>
+</div>
+
+<!-- ============ 03 PROTECT ============ -->
+<div data-chapter="מיגון" id="protect">
+<section class="op" aria-label="פרק 03, מיגון">
+  <div class="op__st">
+    <div class="op__ph ph"><img data-ph="guards:7" alt=""></div>
+    <div class="op__sh"></div>
+    <i class="door door--t"></i><i class="door door--b"></i>
+    <div class="op__dk"></div>
+    <div class="op__tx"><span class="t-label">פרק <span class="ltr">03</span></span><h2 class="t-display"><span class="ln"><span>מיגון</span></span></h2><p class="t-lead">מגינים על העובדים, על הציוד ועל רציפות העבודה.</p></div>
+  </div>
+</section>
+
+<section class="sec wrap">
+  <div class="grid pt__h">
+    <h2 class="t-h2" data-lines><span class="ln"><span>איפה תהיה</span></span><span class="ln"><span>הפגיעה <span class="cu">הבאה?</span></span></span></h2>
+    <p><b>מפרט מיגון בשתי דקות.</b> סמנו מה יש באתר ונבנה רשימת מיגון ראשונית, שאפשר לשלוח אלינו בלחיצה לקבלת הצעה מדויקת.</p>
+  </div>
+  <div class="grid bld">
+    <div class="rows" id="rows"></div>
+    <aside class="sheet" aria-live="polite">
+      <span class="t-label">המפרט שלכם · <b>לפני סיור באתר</b></span>
+      <div class="sheet__n"><output id="total" class="ltr num">0</output><small>יחידות מיגון<span id="meters"></span></small></div>
+      <ul id="bom"></ul>
+      <div class="sheet__a">
+        <a class="btn btn--solid" id="bomWa" href="#protect">שליחה בוואטסאפ <span class="ar">←</span></a>
+        <a class="btn btn--line" id="bomMail" href="#protect">שליחה במייל</a>
+      </div>
+    </aside>
+  </div>
+</section>
+</div>
+
+<!-- ============ 04 PROCESS ============ -->
+<div data-chapter="תהליך" id="process">
+<section class="op" aria-label="פרק 04, תהליך">
+  <div class="op__st">
+    <div class="op__ph ph"><img data-ph="gates:3" alt=""></div>
+    <div class="op__sh"></div>
+    <i class="door door--t"></i><i class="door door--b"></i>
+    <div class="op__dk"></div>
+    <div class="op__tx"><span class="t-label">פרק <span class="ltr">04</span></span><h2 class="t-display"><span class="ln"><span>תהליך</span></span></h2><p class="t-lead">מהסיור באתר ועד ההתקנה.</p></div>
+  </div>
+</section>
+
+<section class="sec wrap">
+  <div class="grid"><h2 class="t-h2" data-lines style="grid-column:1/10"><span class="ln"><span>צוות אחד.</span></span><span class="ln"><span>אחריות <span class="cu">אחת.</span></span></span></h2></div>
+  <div class="grid steps" id="steps">
+    <div class="steps__bar"><i id="stepsBar"></i></div>
+    <div class="st4"><b class="ltr num">01</b><h3 class="t-h3">ייעוץ וסיור באתר</h3><p>מגיעים, מודדים ולומדים את תהליך העבודה, את תנועת המלגזות ואת נקודות הסיכון.</p></div>
+    <div class="st4"><b class="ltr num">02</b><h3 class="t-h3">תכנון והתאמה</h3><p>מתכננים כל פריט לפי המידות, העומסים והתקנים של האתר, ומגישים הצעה מותאמת.</p></div>
+    <div class="st4"><b class="ltr num">03</b><h3 class="t-h3">ייצור במתכת</h3><p>מייצרים בעצמנו בהתאמה אישית, בלי הפשרות של מוצר מדף.</p></div>
+    <div class="st4"><b class="ltr num">04</b><h3 class="t-h3">התקנה ושירות</h3><p>מתקינים באתר ונשארים זמינים לשירות, להרחבות ולשינויים.</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ============ 05 CONTACT ============ -->
+<div data-chapter="צור קשר" id="contact">
+<section class="op" aria-label="פרק 05, צור קשר">
+  <div class="op__st">
+    <div class="op__ph ph"><img data-ph="gates:4" alt=""></div>
+    <div class="op__sh"></div>
+    <i class="door door--t"></i><i class="door door--b"></i>
+    <div class="op__dk"></div>
+    <div class="op__tx"><span class="t-label">פרק <span class="ltr">05</span></span><h2 class="t-display"><span class="ln"><span>צור קשר</span></span></h2><p class="t-lead">הכול מתחיל בשיחה.</p></div>
+  </div>
+</section>
+
+<section class="sec wrap faq" aria-label="שאלות נפוצות">
+  <div class="grid">
+    <div class="faq__h">
+      <span class="t-label"><b>שאלות</b> נפוצות</span>
+      <h2 class="t-h2">מה ששואלים אותנו לפני שמתחילים</h2>
+      <a class="btn btn--line" href="#form">שאלה אחרת? כתבו לנו <span class="ar">←</span></a>
+    </div>
+    <div class="faq__l">
+      <details open><summary>אתם מייצרים לפי מידה או מוכרים מוצרים מוכנים?<i></i></summary><p>אנחנו מייצרים. כל עגלה, מעקה, שער או קונסטרוקציה מתוכננים לפי הצורך באתר: מידות, עומסים, סוג הארגזים ותנועת המלגזות.</p></details>
+      <details><summary>לאילו אתרים מתאימים הפתרונות?<i></i></summary><p>למרלו"גים, למחסנים לוגיסטיים ולמפעלים, וגם ללקוחות פרטיים ועסקיים שצריכים פתרון מתכת ייעודי.</p></details>
+      <details><summary>מה ההבדל בין מיגון למעקה רגיל?<i></i></summary><p>מיגון מתוכנן לנקודת סיכון מסוימת: ארון כיבוי, הידרנט, ארון חשמל, צנרת ספרינקלרים או עמוד בטון. הוא נבנה לפי זווית הפגיעה האפשרית, וכך שומר על הציוד ועל העובדים בלי לחסום גישה.</p></details>
+      <details><summary>אפשר לבנות סככה גדולה בלי עמודים באמצע?<i></i></summary><p>כן. בין הפרויקטים שלנו יש סככה של 1,000 מ"ר בלי עמודים מרכזיים, וגם סככות מודולריות וסככות ייעודיות למתקנים.</p></details>
+      <details><summary>איך מקבלים הצעת מחיר?<i></i></summary><p>משאירים פרטים בטופס או שולחים את מפרט המיגון מהכלי שלמעלה. נחזור אליכם עם מענה מהיר, ייעוץ מקצועי והצעה מותאמת לצורכי האתר.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" aria-label="פרטי התקשרות" id="form" style="padding-top:2vh">
+  <h2 class="ct__h" id="ctH">דברו איתנו</h2>
+  <div class="grid ct__g">
+    <div class="people">
+      <div class="prs"><div class="t-h3">בן<small><bdi class="ltr">050-739-3949</bdi></small></div><div class="prs__a"><a class="btn btn--line" href="tel:+972507393949">חיוג</a><a class="btn btn--solid" href="https://wa.me/972507393949" target="_blank" rel="noopener">וואטסאפ</a></div></div>
+      <div class="prs"><div class="t-h3">ירון<small><bdi class="ltr">050-525-1781</bdi></small></div><div class="prs__a"><a class="btn btn--line" href="tel:+972505251781">חיוג</a><a class="btn btn--solid" href="https://wa.me/972505251781" target="_blank" rel="noopener">וואטסאפ</a></div></div>
+      <div class="meta"><div><span class="t-label">מייל</span><a href="mailto:Yaronn57@gmail.com"><bdi class="ltr">Yaronn57@gmail.com</bdi></a></div><div><span class="t-label">כתובת</span><p>סגולה 17</p></div></div>
+    </div>
+    <form class="form" id="leadForm" novalidate>
+      <div class="fld"><label for="f-name">שם מלא *</label><input id="f-name" name="name" required autocomplete="name"></div>
+      <div class="fld"><label for="f-phone">טלפון *</label><input id="f-phone" name="phone" required inputmode="tel" autocomplete="tel"></div>
+      <div class="fld"><label for="f-co">חברה</label><input id="f-co" name="company" autocomplete="organization"></div>
+      <div class="fld"><label for="f-site">סוג האתר</label><select id="f-site" name="site"><option>מרלו"ג</option><option>מחסן לוגיסטי</option><option>מפעל</option><option>אחר</option></select></div>
+      <fieldset class="fld full"><legend>במה אפשר לעזור?</legend><div class="chips" id="needChips"></div></fieldset>
+      <div class="fld full"><label for="f-msg">פרטים נוספים</label><textarea id="f-msg" name="msg" placeholder="מה צריך, באיזה היקף ומתי"></textarea></div>
+      <div class="form__e" id="formErr" role="alert"></div>
+      <div class="form__a"><button class="btn btn--solid" type="submit">שליחה בוואטסאפ <span class="ar">←</span></button><button class="btn btn--line" type="button" id="mailBtn">שליחה במייל</button></div>
+      <p class="form__n">הפנייה נפתחת כהודעה מוכנה בוואטסאפ או במייל. בגרסה הסופית אפשר לחבר אותה ישירות למערכת לידים.</p>
+    </form>
+  </div>
+  <footer class="grid ft">
+    <span>© <span id="yr"></span> נתנאל ב.ע.ד חברה לבניין ופיתוח בע"מ</span>
+    <nav aria-label="קישורים"><a href="#about">אודות</a><a href="#works">מוצרים</a><a href="#protect">מיגון</a><a href="#process">תהליך</a></nav>
+    <span>הצעת עיצוב · גרסה 3 בהירה</span>
+  </footer>
+</section>
+<a class="back" href="#top">חזרה להתחלה</a>
+</div>
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lbT">
+  <div class="lb__t"><h3 id="lbT"></h3><button class="cir" id="lbX" aria-label="סגירה">✕</button></div>
+  <div class="lb__fig" id="lbFig"><img id="lbImg" alt=""></div>
+  <div class="lb__b"><span id="lbCap"></span><div class="lb__nav"><span id="lbN" class="ltr num"></span><button class="cir" id="lbPrev" aria-label="התמונה הקודמת">→</button><button class="cir" id="lbNext" aria-label="התמונה הבאה">←</button></div></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+/* ===================== DATA ===================== */
+/* each photo: [caption, color original, graded copy (only where the page shows it graded)] */
+const PHOTOS = {"carts":[["עגלות ליקוט לפי נושאים","assets/photos/carts-00.webp","assets/graded/carts-00.webp"],["עגלות מותאמות לארגזים","assets/photos/carts-01.webp",""],["עגלת שקי ענק","assets/photos/carts-02.webp",""],["עגלת משטחים למשקל כבד","assets/photos/carts-03.webp",""],["עגלת ליקוט","assets/photos/carts-04.webp",""]],"conveyors":[["מסוע גלילי מתכת","assets/photos/conveyors-00.webp","assets/graded/conveyors-00.webp"],["מסוע גלילי פלסטיק","assets/photos/conveyors-01.webp","assets/graded/conveyors-01.webp"],["","assets/photos/conveyors-02.webp",""],["מסוע משולב מגירות","assets/photos/conveyors-03.webp",""]],"net":[["","assets/photos/net-00.webp",""],["","assets/photos/net-01.webp","assets/graded/net-01.webp"]],"guards":[["מיגון מעלית משא","assets/photos/guards-00.webp",""],["מעקה הגנה לצנרת ספרינקלרים","assets/photos/guards-01.webp",""],["עמודי הגנה \"4 לארונות כיבוי","assets/photos/guards-02.webp","assets/graded/guards-02.webp"],["הגנה לארון בקרה","assets/photos/guards-03.webp",""],["עמוד הגנה \"6 להידרנט","assets/photos/guards-04.webp",""],["","assets/photos/guards-05.webp",""],["מעקה הגנה לארון חשמל ותקשורת","assets/photos/guards-06.webp",""],["","assets/photos/guards-07.webp","assets/graded/guards-07.webp"],["זוויות הגנה לעמודי בטון","assets/photos/guards-08.webp",""],["מעקה הגנה זוויתי למפוח","assets/photos/guards-09.webp","assets/graded/guards-09.webp"],["מעקה הגנה ליחידת מיזוג","assets/photos/guards-10.webp",""],["","assets/photos/guards-11.webp",""],["מעקה הגנה נשלף לארון מפוח","assets/photos/guards-12.webp",""],["מעקה הגנה לפינות עבודה","assets/photos/guards-13.webp",""],["מיגון מסילות דלת מהירה","assets/photos/guards-14.webp",""],["","assets/photos/guards-15.webp",""],["הגנה לפתחי יציאה","assets/photos/guards-16.webp",""],["תיחום מעבר הולכי רגל במחסן לוגיסטי","assets/photos/guards-17.webp","assets/graded/guards-17.webp"],["הגנת עמודי צמ\"ג ומרזבים","assets/photos/guards-18.webp",""]],"gates":[["שער קורה קונזולי","assets/photos/gates-00.webp",""],["שער כנף","assets/photos/gates-01.webp",""],["שער מעלית משא","assets/photos/gates-02.webp",""],["","assets/photos/gates-03.webp","assets/graded/gates-03.webp"],["שער מסילה חשמלי","assets/photos/gates-04.webp","assets/graded/gates-04.webp"],["","assets/photos/gates-05.webp",""],["שער מסילה לסגירת מידוף","assets/photos/gates-06.webp","assets/graded/gates-06.webp"],["כלוב למידוף","assets/photos/gates-07.webp",""]],"structures":[["תחנה על גלגלים","assets/photos/structures-00.webp","assets/graded/structures-00.webp"],["פינת עישון על גלגלים","assets/photos/structures-01.webp",""],["תחנה על גלגלים","assets/photos/structures-02.webp",""],["קונסטרוקציה פריקה","assets/photos/structures-03.webp",""],["סככה מודולרית","assets/photos/structures-04.webp",""],["סככה ייעודית למתקן","assets/photos/structures-05.webp",""],["סככה 1,000 מ\"ר ללא עמודים מרכזיים","assets/photos/structures-06.webp","assets/graded/structures-06.webp"]],"tables":[["שולחן אריזה","assets/photos/tables-00.webp",""],["שולחן אריזה מסתובב","assets/photos/tables-01.webp",""],["שולחן טכנאי","assets/photos/tables-02.webp","assets/graded/tables-02.webp"],["שולחן אריזה עם מידוף עליון","assets/photos/tables-03.webp",""],["","assets/photos/tables-04.webp",""]],"height":[["מגביל גובה למשאיות","assets/photos/height-00.webp","assets/graded/height-00.webp"],["","assets/photos/height-01.webp",""]],"misc":[["מידוף זוויתי","assets/photos/misc-00.webp","assets/graded/misc-00.webp"],["מקן ייעודי למוצרי אריזה","assets/photos/misc-01.webp",""],["סטנד ייעודי","assets/photos/misc-02.webp",""]]};
+/* display order, cover photo, slot (L = 3:2 landscape photo, S = 4:5 portrait photo) */
+const CATS = [
+  {id:'carts',      he:'עגלות ליקוט',      cover:0, sz:'L', col:'1/8',  desc:'עגלות לכל צורך: לפי נושאים, לפי ארגזים, לשקי ענק ולמשטחים במשקל כבד.'},
+  {id:'conveyors',  he:'מסועים',            cover:1, sz:'S', col:'9/13', mt:'22vh', desc:'מסועי גלילים ממתכת ומפלסטיק, ומסועים משולבי מגירות שמותאמים לקו העבודה.'},
+  {id:'guards',     he:'מיגונים',           cover:2, sz:'S', col:'1/5',  desc:'הגנה לכל נקודת סיכון: ארונות כיבוי, הידרנטים, ספרינקלרים, ארונות חשמל, מעליות ועמודים.'},
+  {id:'gates',      he:'שערים',              cover:6, sz:'L', col:'6/13', mt:'16vh', desc:'שערי כנף, קונזוליים ומסילה, חשמליים או ידניים. גם שערי מעלית, סגירות מידוף וכלובים.'},
+  {quote:true},
+  {id:'structures', he:'קונסטרוקציות',      cover:0, sz:'L', col:'1/8',  desc:'סככות מודולריות, תחנות על גלגלים, פינות עישון ניידות וקונסטרוקציות פריקות.'},
+  {id:'net',        he:'רשת בטיחות',        cover:1, sz:'S', col:'9/13', mt:'22vh', desc:'הגנה מפני נפילת חפצים מגובה, במעברי הולכי רגל ובסביבת העבודה.'},
+  {id:'tables',     he:'שולחנות עבודה',     cover:2, sz:'S', col:'1/5',  desc:'שולחנות אריזה, טכנאי ומיון, כולל שולחן מסתובב ושולחן עם מידוף עליון.'},
+  {id:'height',     he:'מגבילי גובה',       cover:0, sz:'L', col:'6/13', mt:'16vh', desc:'מגבילי גובה למשאיות, שמגינים על מבנים, סככות ותשתיות בכניסה לאתר.'},
+  {id:'misc',       he:'אלמנטים ייעודיים',  cover:0, sz:'L', col:'3/11', desc:'מידוף זוויתי, מקן למוצרי אריזה, סטנדים, וכל אלמנט מתכת שהאתר צריך.'}
+];
+const WA_MAIN='972507393949', MAIL='Yaronn57@gmail.com';
+const ph=(c,i)=>PHOTOS[c][i];
+const cat=id=>CATS.find(x=>x.id===id);
+const cap=(c,i)=>ph(c,i)[0]||cat(c).he;
+const pad=n=>String(n).padStart(2,'0');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.querySelectorAll('img[data-ph]').forEach(img=>{const [c,i]=img.dataset.ph.split(':');img.src=ph(c,+i)[2];});
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+/* ===================== BUILD ===================== */
+(function(){
+  const box=document.getElementById('cards'); let k=0;
+  CATS.forEach(c=>{
+    if(c.quote){const q=document.createElement('div');q.className='quote';q.innerHTML='<p data-lines><span class="ln"><span><span class="cu">בולט</span> כשצריך.</span></span></p><p data-lines><span class="ln"><span>שקט כשאפשר.</span></span></p>';box.appendChild(q);return;}
+    const n=PHOTOS[c.id].length, i=++k, [,src,gsrc]=ph(c.id,c.cover);
+    const a=document.createElement('article'); a.className='card '+c.sz; a.tabIndex=0; a.dataset.cat=c.id;
+    a.setAttribute('role','button'); a.setAttribute('aria-label',`${c.he}, גלריה של ${n} תמונות`);
+    a.style.gridColumn=c.col; if(c.mt)a.style.marginTop=c.mt;
+    a.innerHTML=`<div class="ph"><img loading="lazy" src="${gsrc}" alt="${cap(c.id,c.cover)}"><img class="col" loading="lazy" src="${src}" alt=""><span class="card__go">לגלריה <span class="ar">←</span></span></div><div class="card__m"><span class="i ltr num">${pad(i)}</span><h3 class="t-h3">${c.he}</h3><span class="c">${n} תמונות</span></div><p>${c.desc}</p>`;
+    box.appendChild(a);
+  });
+  const words=['עגלות ליקוט','מסועים','מיגונים','שערים','קונסטרוקציות','שולחנות עבודה','רשתות בטיחות','מגבילי גובה','סככות'];
+  const row=words.map(w=>`<span>${w}</span><i></i>`).join(''); document.getElementById('mq').innerHTML=row+row;
+})();
+
+/* ===================== LIGHTBOX (originals, in color) ===================== */
+(function(){
+  const lb=document.getElementById('lb'), im=document.getElementById('lbImg'), t=document.getElementById('lbT'), cp=document.getElementById('lbCap'), n=document.getElementById('lbN');
+  let c=null, i=0, last=null;
+  const show=()=>{const L=PHOTOS[c]; i=(i+L.length)%L.length; im.src=L[i][1]; im.alt=cap(c,i); cp.textContent=cap(c,i); n.textContent=`${pad(i+1)} / ${pad(L.length)}`;};
+  const open=id=>{last=document.activeElement; c=id; i=cat(id).cover; t.textContent=cat(id).he; show(); lb.classList.add('open'); window.lenis&&lenis.stop(); document.getElementById('lbX').focus();};
+  const close=()=>{lb.classList.remove('open'); window.lenis&&lenis.start(); last&&last.focus();};
+  document.addEventListener('click',e=>{const k=e.target.closest('.card'); if(k)open(k.dataset.cat);});
+  document.addEventListener('keydown',e=>{
+    const k=e.target.closest&&e.target.closest('.card'); if(k&&(e.key==='Enter'||e.key===' ')){e.preventDefault();open(k.dataset.cat);return;}
+    if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')close(); if(e.key==='ArrowLeft'){i++;show();} if(e.key==='ArrowRight'){i--;show();}
+  });
+  document.getElementById('lbX').onclick=close;
+  document.getElementById('lbNext').onclick=()=>{i++;show();};
+  document.getElementById('lbPrev').onclick=()=>{i--;show();};
+  document.getElementById('lbFig').addEventListener('click',e=>{if(e.target.id==='lbFig')close();});
+})();
+
+/* ===================== MENU ===================== */
+(function(){
+  const b=document.getElementById('burger');
+  const set=o=>{document.body.classList.toggle('mo',o); b.setAttribute('aria-expanded',o); if(window.lenis)o?lenis.stop():lenis.start();};
+  b.onclick=()=>set(!document.body.classList.contains('mo'));
+  document.querySelectorAll('[data-close]').forEach(a=>a.addEventListener('click',()=>set(false)));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('mo'))set(false);});
+})();
+
+/* ===================== PROTECTION BUILDER ===================== */
+(function(){
+  const ROWS=[
+    {k:'fire',t:'ארונות כיבוי',s:'עמודי הגנה "4 לארונות כיבוי',u:'יח׳',per:2},
+    {k:'hyd',t:'הידרנטים',s:'עמוד הגנה "6 להידרנט',u:'יח׳',per:2},
+    {k:'col',t:'עמודי בטון',s:'זוויות הגנה לעמודי בטון',u:'יח׳',per:4},
+    {k:'elec',t:'ארונות חשמל ותקשורת',s:'מעקה הגנה לארון חשמל ותקשורת',u:'יח׳',per:1},
+    {k:'ctrl',t:'ארונות בקרה',s:'הגנה לארון בקרה',u:'יח׳',per:1},
+    {k:'spr',t:'צנרת ספרינקלרים',s:'מעקה הגנה לצנרת ספרינקלרים',u:'מ׳',per:1,step:5},
+    {k:'lift',t:'מעליות משא',s:'מיגון מעלית משא ושער מעלית',u:'יח׳',per:2},
+    {k:'hvac',t:'מיזוג ומפוחים',s:'מעקה הגנה ליחידת מיזוג או מפוח',u:'יח׳',per:1},
+    {k:'walk',t:'מעברי הולכי רגל',s:'תיחום מעבר הולכי רגל',u:'מ׳',per:1,step:5},
+    {k:'door',t:'דלתות מהירות',s:'מיגון מסילות דלת מהירה',u:'יח׳',per:2},
+    {k:'exit',t:'פתחי יציאה',s:'הגנה לפתחי יציאה',u:'יח׳',per:1},
+    {k:'truck',t:'כניסות משאיות',s:'מגביל גובה למשאיות',u:'יח׳',per:1}
+  ];
+  const st={}, rows=document.getElementById('rows'), bom=document.getElementById('bom'), tot=document.getElementById('total');
+  ROWS.forEach(r=>{st[r.k]=0; const d=document.createElement('div'); d.className='rw';
+    d.innerHTML=`<div><div class="t">${r.t}</div><div class="s">${r.s}</div></div><div class="stp"><button type="button" aria-label="פחות ${r.t}" data-d="-1">−</button><output class="ltr num" id="o-${r.k}">0</output><button type="button" aria-label="עוד ${r.t}" data-d="1">+</button></div>`;
+    d.querySelectorAll('button').forEach(b=>b.onclick=()=>{st[r.k]=Math.max(0,st[r.k]+(+b.dataset.d)*(r.step||1)); document.getElementById('o-'+r.k).textContent=st[r.k]; d.classList.toggle('on',st[r.k]>0); render();});
+    rows.appendChild(d);});
+  let shown=0;
+  const lines=()=>ROWS.filter(r=>st[r.k]>0).map(r=>({name:r.s,q:st[r.k]*r.per,u:r.u,src:`${st[r.k]} ${r.t}`}));
+  function render(){
+    const L=lines(); const total=L.reduce((a,l)=>a+(l.u==='מ׳'?0:l.q),0), meters=L.reduce((a,l)=>a+(l.u==='מ׳'?l.q:0),0);
+    document.getElementById('meters').textContent=meters?` · ${meters} מ׳ מעקות ותיחום`:'';
+    bom.innerHTML=L.length?L.map(l=>`<li><span>${l.name}</span><b>${l.q} ${l.u}</b></li>`).join(''):'<li>עוד לא נבחרו פריטים. התחילו מהרשימה.</li>';
+    const from=shown,t0=performance.now(); shown=total;
+    const anim=n=>{const k=Math.min(1,(n-t0)/450); tot.textContent=Math.round(from+(total-from)*(1-Math.pow(1-k,3))); if(k<1)requestAnimationFrame(anim);}; requestAnimationFrame(anim);
+    const txt='שלום, אני מעוניין/ת בהצעה למיגון האתר.\n\nמה יש באתר:\n'+L.map(l=>'• '+l.src).join('\n')+'\n\nרשימה ראשונית:\n'+L.map(l=>`• ${l.name}: ${l.q} ${l.u}`).join('\n');
+    document.getElementById('bomWa').href=L.length?`https://wa.me/${WA_MAIN}?text=${encodeURIComponent(txt)}`:'#protect';
+    document.getElementById('bomMail').href=L.length?`mailto:${MAIL}?subject=${encodeURIComponent('בקשת הצעה: מפרט מיגון')}&body=${encodeURIComponent(txt)}`:'#protect';
+  }
+  ['bomWa','bomMail'].forEach(id=>document.getElementById(id).addEventListener('click',e=>{ if(!lines().length){e.preventDefault(); e.stopImmediatePropagation(); rows.querySelector('button[data-d="1"]').focus();} else if(id==='bomWa'){e.preventDefault(); window.open(e.currentTarget.href,'_blank','noopener');} }));
+  render();
+})();
+
+/* ===================== FORM ===================== */
+(function(){
+  const NEEDS=['עגלות ליקוט','מסועים','מיגונים','רשת בטיחות','שערים','קונסטרוקציות','שולחנות','מגבילי גובה','אחר'];
+  const box=document.getElementById('needChips');
+  NEEDS.forEach(n=>{const l=document.createElement('label');l.innerHTML=`<input type="checkbox" name="need" value="${n}"><span>${n}</span>`;box.appendChild(l);});
+  const f=document.getElementById('leadForm'), err=document.getElementById('formErr');
+  function compose(){
+    const d=new FormData(f); const name=(d.get('name')||'').trim(), phone=(d.get('phone')||'').trim();
+    if(!name||!phone){err.textContent='נא למלא שם וטלפון.'; (name?f.phone:f.name).focus(); return null;}
+    if(!/^[\d\s+()-]{9,}$/.test(phone)){err.textContent='מספר הטלפון לא נראה תקין.'; f.phone.focus(); return null;}
+    err.textContent=''; const needs=d.getAll('need');
+    return `פנייה חדשה מהאתר\n\nשם: ${name}\nטלפון: ${phone}`+(d.get('company')?`\nחברה: ${d.get('company')}`:'')+`\nסוג אתר: ${d.get('site')}`+(needs.length?`\nתחומים: ${needs.join(', ')}`:'')+(d.get('msg')?`\n\n${d.get('msg')}`:'');
+  }
+  f.addEventListener('submit',e=>{e.preventDefault(); const t=compose(); if(t) window.open(`https://wa.me/${WA_MAIN}?text=${encodeURIComponent(t)}`,'_blank','noopener');});
+  document.getElementById('mailBtn').onclick=()=>{const t=compose(); if(t) location.href=`mailto:${MAIL}?subject=${encodeURIComponent('פנייה מהאתר')}&body=${encodeURIComponent(t)}`;};
+})();
+
+/* ===================== CHAPTER BAR + HEADER ===================== */
+(function(){
+  const CH=[...document.querySelectorAll('[data-chapter]')], bar=document.getElementById('cbar'), hd=document.getElementById('hd');
+  bar.innerHTML=CH.map((c,i)=>`<button type="button"><span class="ltr num">${pad(i+1)}</span>&nbsp;&nbsp;${c.dataset.chapter}<i><b></b></i></button>`).join('');
+  const btns=[...bar.children], fills=btns.map(b=>b.querySelector('b'));
+  btns.forEach((b,i)=>b.onclick=()=>{window.lenis?lenis.scrollTo(CH[i],{duration:1.6}):CH[i].scrollIntoView({behavior:'smooth'});});
+  let spans=[], act=-2, hidden=false, lastY=scrollY, travel=0;
+  const PH=[...document.querySelectorAll('.hero,.op')]; let phs=[], onPh=null;
+  const measure=()=>{const sp=c=>{const r=c.getBoundingClientRect();return [r.top+scrollY,r.height];}; spans=CH.map(sp); phs=PH.map(sp);};
+  function upd(){
+    const y=scrollY, mid=y+innerHeight*.5; let a=-1;
+    spans.forEach(([top,h],i)=>{const p=Math.min(1,Math.max(0,(mid-top)/h)); if(mid>=top&&mid<top+h)a=i; fills[i].style.transform=`scaleX(${p})`;});
+    if(a!==act){act=a; btns.forEach((b,i)=>b.classList.toggle('on',i===a)); bar.classList.toggle('on',a>=0);}
+    /* header: hide after 80px of downward travel, show after 40px upward; no flicker on small moves */
+    const d=y-lastY; lastY=y; travel=(Math.sign(d)===Math.sign(travel)?travel:0)+d;
+    const want = y<innerHeight*.6 ? false : travel>80 ? true : travel<-40 ? false : hidden;
+    if(want!==hidden&&!document.body.classList.contains('mo')){hidden=want; hd.classList.toggle('hide',hidden);}
+    /* photo under the bar: from the moment it rises into view until its frame fades to paper */
+    const yb=y+innerHeight-30, ph=phs.some(([top,h])=>yb>top&&y<top+(h-innerHeight)*.86);
+    if(ph!==onPh){onPh=ph; bar.classList.toggle('ph',ph);}
+  }
+  measure(); upd();
+  addEventListener('resize',()=>{measure();upd();});
+  addEventListener('load',()=>{measure();upd();});
+  window.__measure=measure;
+  if(!(window.gsap&&window.Lenis)||reduce) addEventListener('scroll',upd,{passive:true}); else window.__upd=upd;
+})();
+
+/* ===================== MOTION ===================== */
+if(window.gsap&&window.ScrollTrigger&&!reduce){
+gsap.registerPlugin(ScrollTrigger);
+gsap.defaults({overwrite:'auto'});
+if(window.Lenis){
+  const lenis=new Lenis({lerp:.1,wheelMultiplier:1,smoothWheel:true}); window.lenis=lenis;
+  lenis.on('scroll',()=>{ScrollTrigger.update(); window.__upd&&window.__upd();});
+  gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href'); const t=id==='#top'?0:document.querySelector(id); if(t===null)return; e.preventDefault(); lenis.scrollTo(t,{duration:1.6});}));
+}
+ScrollTrigger.addEventListener('refresh',()=>window.__measure&&window.__measure());
+const lines=el=>el.querySelectorAll('.ln>span');
+
+/* loader, then hero intro (the intro moves the wrapper, scroll moves the image: no tug of war) */
+(function(){
+  const ld=document.createElement('div'); ld.className='ld'; ld.innerHTML='<div class="ld__in"><img src="assets/logo-mark.png" alt=""><span>נתנאל ב.ע.ד</span><div class="ld__bar"><i></i></div></div>'; document.body.appendChild(ld);
+  window.lenis&&lenis.stop();
+  gsap.timeline({defaults:{ease:'expo.inOut'},onComplete:()=>{ld.remove(); window.lenis&&lenis.start();}})
+    .from('.ld__in>*',{opacity:0,y:12,duration:.8,stagger:.08,ease:'expo.out'})
+    .to('.ld__bar i',{scaleX:1,duration:1},.2)
+    .to('.ld__in',{opacity:0,duration:.5,ease:'power2.in'},1.25)
+    .to(ld,{yPercent:-100,duration:1.1},1.6)
+    .from('#heroPh',{scale:1.18,duration:2.4,ease:'expo.out'},1.6)
+    .from(lines(document.getElementById('heroH')),{yPercent:110,duration:1.5,stagger:.09,ease:'expo.out'},2.0)
+    .from('#heroBot',{opacity:0,y:20,duration:1.2,ease:'expo.out'},2.4)
+    .from('#hd',{opacity:0,duration:1,ease:'none'},2.4);
+})();
+
+/* hero leaves */
+gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'bottom bottom',scrub:.6}})
+  .to('#heroC',{y:-90,opacity:0,duration:.55,ease:'none'},0)
+  .to('#heroPh img',{scale:1.1,duration:1,ease:'none'},0)
+  .to('#heroDk',{opacity:1,duration:.45,ease:'none'},.55);
+
+/* chapter openers: two steel doors part, the title rises, the frame goes dark */
+document.querySelectorAll('.op').forEach(s=>{
+  const im=s.querySelector('.op__ph img'), tx=s.querySelector('.op__tx');
+  gsap.set(s.querySelector('.door--t'),{yPercent:-8}); gsap.set(s.querySelector('.door--b'),{yPercent:8});
+  gsap.timeline({scrollTrigger:{trigger:s,start:'top top',end:'bottom bottom',scrub:.6}})
+    .to(s.querySelector('.door--t'),{yPercent:-100,duration:.42,ease:'power2.inOut'},0)
+    .to(s.querySelector('.door--b'),{yPercent:100,duration:.42,ease:'power2.inOut'},0)
+    .fromTo(im,{scale:1.25},{scale:1.02,duration:1,ease:'none'},0)
+    .from(tx.querySelector('.t-label'),{opacity:0,y:20,duration:.14,ease:'none'},.3)
+    .from(lines(tx),{yPercent:110,duration:.2,ease:'power2.out'},.32)
+    .from(tx.querySelector('.t-lead'),{opacity:0,y:20,duration:.14,ease:'none'},.4)
+    .to(tx,{y:-60,opacity:0,duration:.16,ease:'none'},.8)
+    .to(s.querySelector('.op__dk'),{opacity:1,duration:.18,ease:'none'},.82);
+});
+
+/* statement: words light up as you read */
+(function(){
+  const el=document.getElementById('stmt'), ws=[];
+  const walk=(node,out)=>node.childNodes.forEach(n=>{
+    if(n.nodeType===3){n.textContent.split(/(\s+)/).forEach(w=>{if(!w)return; if(/^\s+$/.test(w)){out.appendChild(document.createTextNode(' '));return;} const s=document.createElement('span');s.textContent=w;ws.push(s);out.appendChild(s);});}
+    else{const c=n.cloneNode(false);walk(n,c);out.appendChild(c);}
+  });
+  const frag=document.createElement('div'); walk(el,frag); el.innerHTML=''; while(frag.firstChild)el.appendChild(frag.firstChild);
+  gsap.fromTo(ws,{opacity:.18},{opacity:1,stagger:.1,ease:'none',scrollTrigger:{trigger:el,start:'top 78%',end:'bottom 45%',scrub:.6}});
+})();
+
+/* line reveals, parallax, fade-ups */
+document.querySelectorAll('[data-lines]').forEach(h=>gsap.from(lines(h),{yPercent:110,duration:1.4,stagger:.1,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 86%',once:true}}));
+document.querySelectorAll('[data-par] img').forEach(im=>gsap.fromTo(im,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:im.parentNode,start:'top bottom',end:'bottom top',scrub:.6}}));
+gsap.utils.toArray('.ab__tx>*,.stat,.wr,.card,.faq details,.prs,.meta,.form>*,.rw,.sheet').forEach(el=>gsap.from(el,{opacity:0,y:36,duration:1.2,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 94%',once:true}}));
+/* counts */
+document.querySelectorAll('[data-count]').forEach(el=>{
+  const end=+el.dataset.count, suf=el.dataset.suf||'', fmt=v=>el.hasAttribute('data-comma')?v.toLocaleString('en-US'):v, o={v:0};
+  el.textContent=fmt(0)+suf;
+  gsap.to(o,{v:end,duration:2.2,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 90%',once:true},onUpdate:()=>el.textContent=fmt(Math.round(o.v))+suf});
+});
+/* process line */
+gsap.to('#stepsBar',{scaleX:1,ease:'none',scrollTrigger:{trigger:'#steps',start:'top 80%',end:'bottom 60%',scrub:.6}});
+gsap.from('.st4',{opacity:0,y:36,stagger:.12,duration:1.2,ease:'expo.out',scrollTrigger:{trigger:'#steps',start:'top 82%',once:true}});
+/* closing word */
+(function(){
+  const h=document.getElementById('ctH'), t=h.textContent; h.setAttribute('aria-label',t); h.textContent='';
+  [...t].forEach(c=>{const s=document.createElement('span');s.className='ch';s.setAttribute('aria-hidden','true');s.textContent=c===' '?' ':c;h.appendChild(s);});
+  gsap.from(h.children,{yPercent:110,stagger:.04,duration:1.4,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 85%',once:true}});
+})();
+addEventListener('load',()=>ScrollTrigger.refresh());
+}
+</script>
+</body>
+</html>
