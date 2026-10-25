@@ -10,8 +10,8 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).parent
-MAX_EDGE = 1100
-QUALITY = 62
+MAX_EDGE = 760
+QUALITY = 50
 
 
 def data_uri(rel: str) -> str:
